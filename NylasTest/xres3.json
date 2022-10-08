@@ -1,0 +1,25 @@
+{
+  "deltas": [
+    {
+      "date": 1658860634,
+      "object": "message",
+      "type": "thread.replied",
+      "object_data": {
+        "namespace_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "account_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "object": "message",
+        "attributes": null,
+        "id": "9az7xdpxxyrsotyx1lbdsax8l",
+        "metadata": {
+          "sender_app_id": 40167,
+          "timestamp": 1658860608,
+          "from_self": false,
+          "payload": "payload",
+          "thread_id": "copficcdlaq3aetf04shxzkev",
+          "reply_to_message_id": "pvurwrvs1snf4dz2a9qween9",
+          "message_id": "9az7xdpxxyrsotyx1lbdsax8l"
+        }
+      }
+    }
+  ]
+}

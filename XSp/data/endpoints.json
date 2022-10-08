@@ -1,0 +1,11575 @@
+{
+  "/ApplicationCredentials/{id}/application": [
+    "get"
+  ],
+  "/ApplicationCredentials": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/ApplicationCredentials/replaceOrCreate": [
+    "post"
+  ],
+  "/ApplicationCredentials/upsertWithWhere": [
+    "post"
+  ],
+  "/ApplicationCredentials/{id}/{username}/exists": [
+    "get"
+  ],
+  "/ApplicationCredentials/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  " /ApplicationCredentials/{id}/replace": [
+    "post"
+  ],
+  "/ApplicationCredentials/findOne": [
+    "get"
+  ],
+  "/ApplicationCredentials/update": [
+    "post"
+  ],
+  "/ApplicationCredentials/count": [
+    "get"
+  ],
+  "/ApplicationCredentials/change-stream": [
+    "post",
+    "get"
+  ],
+  "/UserCredentials/{id}/user": [
+    "get"
+  ],
+  "/UserCredentials": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/UserCredentials/replaceOrCreate": [
+    "post"
+  ],
+  "/UserCredentials/upsertWithWhere": [
+    "post"
+  ],
+  "/UserCredentials/{id}/exists": [
+    "get"
+  ],
+  "/UserCredentials/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/UserCredentials/{id}/replace": [
+    "post"
+  ],
+  "/UserCredentials/findOne": [
+    "get"
+  ],
+  "/UserCredentials/update": [
+    "post"
+  ],
+  "/UserCredentials/count": [
+    "get"
+  ],
+  "/UserCredentials/change-stream": [
+    "post",
+    "get"
+  ],
+  "/UserIdentities/{id}/user": [
+    "get"
+  ],
+  "/UserIdentities": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/UserIdentities/replaceOrCreate": [
+    "post"
+  ],
+  "/UserIdentities/upsertWithWhere": [
+    "post"
+  ],
+  "/UserIdentities/{id}/exists": [
+    "get"
+  ],
+  "/UserIdentities/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/UserIdentities/{id}/replace": [
+    "post"
+  ],
+  "/UserIdentities/findOne": [
+    "get"
+  ],
+  "/UserIdentities/update": [
+    "post"
+  ],
+  "/UserIdentities/count": [
+    "get"
+  ],
+  "/UserIdentities/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Images": [
+    "get",
+    "post"
+  ],
+  "/Images/{container}": [
+    "delete",
+    "get"
+  ],
+  "/Images/{container}/files": [
+    "get"
+  ],
+  "/Images/{container}/files/{file}": [
+    "get",
+    "delete"
+  ],
+  "/Images/{container}/upload": [
+    "post"
+  ],
+  "/Images/{container}/download/{file}": [
+    "get"
+  ],
+  "/Users/{id}/accessTokens/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/Users/{id}/accessTokens": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/Users/{id}/accessTokens/count": [
+    "get"
+  ],
+  "/Users": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Users/replaceOrCreate": [
+    "post"
+  ],
+  "/Users/upsertWithWhere": [
+    "post"
+  ],
+  "/Users/{id}/exists": [
+    "get"
+  ],
+  "/Users/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Users/{id}/replace": [
+    "post"
+  ],
+  "/Users/findOne": [
+    "get"
+  ],
+  "/Users/update": [
+    "post"
+  ],
+  "/Users/count": [
+    "get"
+  ],
+  "/Users/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Users/login": [
+    "post"
+  ],
+  "/Users/logout": [
+    "post"
+  ],
+  "/Users/{id}/verify": [
+    "post"
+  ],
+  "/Users/confirm": [
+    "get"
+  ],
+  "/Users/reset": [
+    "post"
+  ],
+  "/Users/change-password": [
+    "post"
+  ],
+  "/Users/reset-password": [
+    "post"
+  ],
+  "/language-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/language-base/replaceOrCreate": [
+    "post"
+  ],
+  "/language-base/upsertWithWhere": [
+    "post"
+  ],
+  "/language-base/{id}/exists": [
+    "get"
+  ],
+  "/language-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/language-base/{id}/replace": [
+    "post"
+  ],
+  "/language-base/findOne": [
+    "get"
+  ],
+  "/language-base/update": [
+    "post"
+  ],
+  "/language-base/count": [
+    "get"
+  ],
+  "/language-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Businesses": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Businesses/replaceOrCreate": [
+    "post"
+  ],
+  "/Businesses/upsertWithWhere": [
+    "post"
+  ],
+  "/Businesses/{id}/exists": [
+    "get"
+  ],
+  "/Businesses/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Businesses/{id}/replace": [
+    "post"
+  ],
+  "/Businesses/findOne": [
+    "get"
+  ],
+  "/Businesses/update": [
+    "post"
+  ],
+  "/Businesses/count": [
+    "get"
+  ],
+  "/Businesses/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Questions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Questions/replaceOrCreate": [
+    "post"
+  ],
+  "/Questions/upsertWithWhere": [
+    "post"
+  ],
+  "/Questions/{id}/exists": [
+    "get"
+  ],
+  "/Questions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Questions/{id}/replace": [
+    "post"
+  ],
+  "/Questions/findOne": [
+    "get"
+  ],
+  "/Questions/update": [
+    "post"
+  ],
+  "/Questions/count": [
+    "get"
+  ],
+  "/Questions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Qualification-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Qualification-base/replaceOrCreate": [
+    "post"
+  ],
+  "/Qualification-base/upsertWithWhere": [
+    "post"
+  ],
+  "/Qualification-base/{id}/exists": [
+    "get"
+  ],
+  "/Qualification-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Qualification-base/{id}/replace": [
+    "post"
+  ],
+  "/Qualification-base/findOne": [
+    "get"
+  ],
+  "/Qualification-base/update": [
+    "post"
+  ],
+  "/Qualification-base/count": [
+    "get"
+  ],
+  "/Qualification-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Organization-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Organization-base/replaceOrCreate": [
+    "post"
+  ],
+  "/Organization-base/upsertWithWhere": [
+    "post"
+  ],
+  "/Organization-base/{id}/exists": [
+    "get"
+  ],
+  "/Organization-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Organization-base/{id}/replace": [
+    "post"
+  ],
+  "/Organization-base/findOne": [
+    "get"
+  ],
+  "/Organization-base/update": [
+    "post"
+  ],
+  "/Organization-base/count": [
+    "get"
+  ],
+  "/Organization-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Certificatetypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Certificatetypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Certificatetypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Certificatetypes/{id}/exists": [
+    "get"
+  ],
+  "/Certificatetypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Certificatetypes/{id}/replace": [
+    "post"
+  ],
+  "/Certificatetypes/findOne": [
+    "get"
+  ],
+  "/Certificatetypes/update": [
+    "post"
+  ],
+  "/Certificatetypes/count": [
+    "get"
+  ],
+  "/Certificatetypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Activitytypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Activitytypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Activitytypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Activitytypes/{id}/exists": [
+    "get"
+  ],
+  "/Activitytypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Activitytypes/{id}/replace": [
+    "post"
+  ],
+  "/Activitytypes/findOne": [
+    "get"
+  ],
+  "/Activitytypes/update": [
+    "post"
+  ],
+  "/Activitytypes/count": [
+    "get"
+  ],
+  "/Activitytypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Competitionlevels": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Competitionlevels/replaceOrCreate": [
+    "post"
+  ],
+  "/Competitionlevels/upsertWithWhere": [
+    "post"
+  ],
+  "/Competitionlevels/{id}/exists": [
+    "get"
+  ],
+  "/Competitionlevels/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Competitionlevels/{id}/replace": [
+    "post"
+  ],
+  "/Competitionlevels/findOne": [
+    "get"
+  ],
+  "/Competitionlevels/update": [
+    "post"
+  ],
+  "/Competitionlevels/count": [
+    "get"
+  ],
+  "/Competitionlevels/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Skilltypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Skilltypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Skilltypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Skilltypes/{id}/exists": [
+    "get"
+  ],
+  "/Skilltypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Skilltypes/{id}/replace": [
+    "post"
+  ],
+  "/Skilltypes/findOne": [
+    "get"
+  ],
+  "/Skilltypes/update": [
+    "post"
+  ],
+  "/Skilltypes/count": [
+    "get"
+  ],
+  "/Skilltypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Trainingtypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Trainingtypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Trainingtypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Trainingtypes/{id}/exists": [
+    "get"
+  ],
+  "/Trainingtypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Trainingtypes/{id}/replace": [
+    "post"
+  ],
+  "/Trainingtypes/findOne": [
+    "get"
+  ],
+  "/Trainingtypes/update": [
+    "post"
+  ],
+  "/Trainingtypes/count": [
+    "get"
+  ],
+  "/Trainingtypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Marriages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Marriages/replaceOrCreate": [
+    "post"
+  ],
+  "/Marriages/upsertWithWhere": [
+    "post"
+  ],
+  "/Marriages/{id}/exists": [
+    "get"
+  ],
+  "/Marriages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Marriages/{id}/replace": [
+    "post"
+  ],
+  "/Marriages/findOne": [
+    "get"
+  ],
+  "/Marriages/update": [
+    "post"
+  ],
+  "/Marriages/count": [
+    "get"
+  ],
+  "/Marriages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Documenttypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Documenttypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Documenttypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Documenttypes/{id}/exists": [
+    "get"
+  ],
+  "/Documenttypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Documenttypes/{id}/replace": [
+    "post"
+  ],
+  "/Documenttypes/findOne": [
+    "get"
+  ],
+  "/Documenttypes/update": [
+    "post"
+  ],
+  "/Documenttypes/count": [
+    "get"
+  ],
+  "/Documenttypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Qualificationterms": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Qualificationterms/replaceOrCreate": [
+    "post"
+  ],
+  "/Qualificationterms/upsertWithWhere": [
+    "post"
+  ],
+  "/Qualificationterms/{id}/exists": [
+    "get"
+  ],
+  "/Qualificationterms/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Qualificationterms/{id}/replace": [
+    "post"
+  ],
+  "/Qualificationterms/findOne": [
+    "get"
+  ],
+  "/Qualificationterms/update": [
+    "post"
+  ],
+  "/Qualificationterms/count": [
+    "get"
+  ],
+  "/Qualificationterms/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Awardtypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Awardtypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Awardtypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Awardtypes/{id}/exists": [
+    "get"
+  ],
+  "/Awardtypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Awardtypes/{id}/replace": [
+    "post"
+  ],
+  "/Awardtypes/findOne": [
+    "get"
+  ],
+  "/Awardtypes/update": [
+    "post"
+  ],
+  "/Awardtypes/count": [
+    "get"
+  ],
+  "/Awardtypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/country-base/{id}/continent": [
+    "get"
+  ],
+  "/country-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/country-base/replaceOrCreate": [
+    "post"
+  ],
+  "/country-base/upsertWithWhere": [
+    "post"
+  ],
+  "/country-base/{id}/exists": [
+    "get"
+  ],
+  "/country-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/country-base/{id}/replace": [
+    "post"
+  ],
+  "/country-base/findOne": [
+    "get"
+  ],
+  "/country-base/update": [
+    "post"
+  ],
+  "/country-base/count": [
+    "get"
+  ],
+  "/country-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/country-base/autoComplete": [
+    "get"
+  ],
+  "/Genders": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Genders/replaceOrCreate": [
+    "post"
+  ],
+  "/Genders/upsertWithWhere": [
+    "post"
+  ],
+  "/Genders/{id}/exists": [
+    "get"
+  ],
+  "/Genders/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Genders/{id}/replace": [
+    "post"
+  ],
+  "/Genders/findOne": [
+    "get"
+  ],
+  "/Genders/update": [
+    "post"
+  ],
+  "/Genders/count": [
+    "get"
+  ],
+  "/Genders/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Products": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Products/replaceOrCreate": [
+    "post"
+  ],
+  "/Products/upsertWithWhere": [
+    "post"
+  ],
+  "/Products/{id}/exists": [
+    "get"
+  ],
+  "/Products/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Products/{id}/replace": [
+    "post"
+  ],
+  "/Products/findOne": [
+    "get"
+  ],
+  "/Products/update": [
+    "post"
+  ],
+  "/Products/count": [
+    "get"
+  ],
+  "/Products/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobname-base/{id}/company": [
+    "get"
+  ],
+  "/jobname-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/jobname-base/replaceOrCreate": [
+    "post"
+  ],
+  "/jobname-base/upsertWithWhere": [
+    "post"
+  ],
+  "/jobname-base/{id}/exists": [
+    "get"
+  ],
+  "/jobname-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/jobname-base/{id}/replace": [
+    "post"
+  ],
+  "/jobname-base/findOne": [
+    "get"
+  ],
+  "/jobname-base/update": [
+    "post"
+  ],
+  "/jobname-base/count": [
+    "get"
+  ],
+  "/jobname-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobname-base/autoComplete": [
+    "get"
+  ],
+  "/Jobworkflows/{id}/job": [
+    "get"
+  ],
+  "/Jobworkflows/{id}/workflow": [
+    "get"
+  ],
+  "/Jobworkflows/{id}/videointerviews": [
+    "get"
+  ],
+  "/Jobworkflows": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobworkflows/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobworkflows/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobworkflows/{id}/exists": [
+    "get"
+  ],
+  "/Jobworkflows/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobworkflows/{id}/replace": [
+    "post"
+  ],
+  "/Jobworkflows/findOne": [
+    "get"
+  ],
+  "/Jobworkflows/update": [
+    "post"
+  ],
+  "/Jobworkflows/count": [
+    "get"
+  ],
+  "/Jobworkflows/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobfunctions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobfunctions/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobfunctions/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobfunctions/{id}/exists": [
+    "get"
+  ],
+  "/Jobfunctions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobfunctions/{id}/replace": [
+    "post"
+  ],
+  "/Jobfunctions/findOne": [
+    "get"
+  ],
+  "/Jobfunctions/update": [
+    "post"
+  ],
+  "/Jobfunctions/count": [
+    "get"
+  ],
+  "/Jobfunctions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobseniorities": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobseniorities/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobseniorities/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobseniorities/{id}/exists": [
+    "get"
+  ],
+  "/Jobseniorities/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobseniorities/{id}/replace": [
+    "post"
+  ],
+  "/Jobseniorities/findOne": [
+    "get"
+  ],
+  "/Jobseniorities/update": [
+    "post"
+  ],
+  "/Jobseniorities/count": [
+    "get"
+  ],
+  "/Jobseniorities/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Qualificationtypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Qualificationtypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Qualificationtypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Qualificationtypes/{id}/exists": [
+    "get"
+  ],
+  "/Qualificationtypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Qualificationtypes/{id}/replace": [
+    "post"
+  ],
+  "/Qualificationtypes/findOne": [
+    "get"
+  ],
+  "/Qualificationtypes/update": [
+    "post"
+  ],
+  "/Qualificationtypes/count": [
+    "get"
+  ],
+  "/Qualificationtypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Hireteams": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Hireteams/replaceOrCreate": [
+    "post"
+  ],
+  "/Hireteams/upsertWithWhere": [
+    "post"
+  ],
+  "/Hireteams/{id}/exists": [
+    "get"
+  ],
+  "/Hireteams/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Hireteams/{id}/replace": [
+    "post"
+  ],
+  "/Hireteams/findOne": [
+    "get"
+  ],
+  "/Hireteams/update": [
+    "post"
+  ],
+  "/Hireteams/count": [
+    "get"
+  ],
+  "/Hireteams/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Requirements": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Requirements/replaceOrCreate": [
+    "post"
+  ],
+  "/Requirements/upsertWithWhere": [
+    "post"
+  ],
+  "/Requirements/{id}/exists": [
+    "get"
+  ],
+  "/Requirements/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Requirements/{id}/replace": [
+    "post"
+  ],
+  "/Requirements/findOne": [
+    "get"
+  ],
+  "/Requirements/update": [
+    "post"
+  ],
+  "/Requirements/count": [
+    "get"
+  ],
+  "/Requirements/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobterms": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobterms/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobterms/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobterms/{id}/exists": [
+    "get"
+  ],
+  "/Jobterms/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobterms/{id}/replace": [
+    "post"
+  ],
+  "/Jobterms/findOne": [
+    "get"
+  ],
+  "/Jobterms/update": [
+    "post"
+  ],
+  "/Jobterms/count": [
+    "get"
+  ],
+  "/Jobterms/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Stagetypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Stagetypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Stagetypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Stagetypes/{id}/exists": [
+    "get"
+  ],
+  "/Stagetypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Stagetypes/{id}/replace": [
+    "post"
+  ],
+  "/Stagetypes/findOne": [
+    "get"
+  ],
+  "/Stagetypes/update": [
+    "post"
+  ],
+  "/Stagetypes/count": [
+    "get"
+  ],
+  "/Stagetypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Statuses": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Statuses/replaceOrCreate": [
+    "post"
+  ],
+  "/Statuses/upsertWithWhere": [
+    "post"
+  ],
+  "/Statuses/{id}/exists": [
+    "get"
+  ],
+  "/Statuses/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Statuses/{id}/replace": [
+    "post"
+  ],
+  "/Statuses/findOne": [
+    "get"
+  ],
+  "/Statuses/update": [
+    "post"
+  ],
+  "/Statuses/count": [
+    "get"
+  ],
+  "/Statuses/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Feedbacks": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Feedbacks/replaceOrCreate": [
+    "post"
+  ],
+  "/Feedbacks/upsertWithWhere": [
+    "post"
+  ],
+  "/Feedbacks/{id}/exists": [
+    "get"
+  ],
+  "/Feedbacks/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Feedbacks/{id}/replace": [
+    "post"
+  ],
+  "/Feedbacks/findOne": [
+    "get"
+  ],
+  "/Feedbacks/update": [
+    "post"
+  ],
+  "/Feedbacks/count": [
+    "get"
+  ],
+  "/Feedbacks/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Businessmatches/{id}/business": [
+    "get"
+  ],
+  "/Businessmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Businessmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Businessmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Businessmatches/{id}/exists": [
+    "get"
+  ],
+  "/Businessmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Businessmatches/{id}/replace": [
+    "post"
+  ],
+  "/Businessmatches/findOne": [
+    "get"
+  ],
+  "/Businessmatches/update": [
+    "post"
+  ],
+  "/Businessmatches/count": [
+    "get"
+  ],
+  "/Businessmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Countrymatches/{id}/country": [
+    "get"
+  ],
+  "/Countrymatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Countrymatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Countrymatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Countrymatches/{id}/exists": [
+    "get"
+  ],
+  "/Countrymatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Countrymatches/{id}/replace": [
+    "post"
+  ],
+  "/Countrymatches/findOne": [
+    "get"
+  ],
+  "/Countrymatches/update": [
+    "post"
+  ],
+  "/Countrymatches/count": [
+    "get"
+  ],
+  "/Countrymatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Languagematches/{id}/language": [
+    "get"
+  ],
+  "/Languagematches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Languagematches/replaceOrCreate": [
+    "post"
+  ],
+  "/Languagematches/upsertWithWhere": [
+    "post"
+  ],
+  "/Languagematches/{id}/exists": [
+    "get"
+  ],
+  "/Languagematches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Languagematches/{id}/replace": [
+    "post"
+  ],
+  "/Languagematches/findOne": [
+    "get"
+  ],
+  "/Languagematches/update": [
+    "post"
+  ],
+  "/Languagematches/count": [
+    "get"
+  ],
+  "/Languagematches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/States/{id}/country": [
+    "get"
+  ],
+  "/States": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/States/replaceOrCreate": [
+    "post"
+  ],
+  "/States/upsertWithWhere": [
+    "post"
+  ],
+  "/States/{id}/exists": [
+    "get"
+  ],
+  "/States/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/States/{id}/replace": [
+    "post"
+  ],
+  "/States/findOne": [
+    "get"
+  ],
+  "/States/update": [
+    "post"
+  ],
+  "/States/count": [
+    "get"
+  ],
+  "/States/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Qualificationmatches/{id}/qualification": [
+    "get"
+  ],
+  "/Qualificationmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Qualificationmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Qualificationmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Qualificationmatches/{id}/exists": [
+    "get"
+  ],
+  "/Qualificationmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Qualificationmatches/{id}/replace": [
+    "post"
+  ],
+  "/Qualificationmatches/findOne": [
+    "get"
+  ],
+  "/Qualificationmatches/update": [
+    "post"
+  ],
+  "/Qualificationmatches/count": [
+    "get"
+  ],
+  "/Qualificationmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Certificatetypematches/{id}/certificatetype": [
+    "get"
+  ],
+  "/Certificatetypematches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Certificatetypematches/replaceOrCreate": [
+    "post"
+  ],
+  "/Certificatetypematches/upsertWithWhere": [
+    "post"
+  ],
+  "/Certificatetypematches/{id}/exists": [
+    "get"
+  ],
+  "/Certificatetypematches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Certificatetypematches/{id}/replace": [
+    "post"
+  ],
+  "/Certificatetypematches/findOne": [
+    "get"
+  ],
+  "/Certificatetypematches/update": [
+    "post"
+  ],
+  "/Certificatetypematches/count": [
+    "get"
+  ],
+  "/Certificatetypematches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Organizationmatches/{id}/organization": [
+    "get"
+  ],
+  "/Organizationmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Organizationmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Organizationmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Organizationmatches/{id}/exists": [
+    "get"
+  ],
+  "/Organizationmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Organizationmatches/{id}/replace": [
+    "post"
+  ],
+  "/Organizationmatches/findOne": [
+    "get"
+  ],
+  "/Organizationmatches/update": [
+    "post"
+  ],
+  "/Organizationmatches/count": [
+    "get"
+  ],
+  "/Organizationmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Certificate-base/{id}/organization": [
+    "get"
+  ],
+  "/Certificate-base/{id}/certificatetype": [
+    "get"
+  ],
+  "/Certificate-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Certificate-base/replaceOrCreate": [
+    "post"
+  ],
+  "/Certificate-base/upsertWithWhere": [
+    "post"
+  ],
+  "/Certificate-base/{id}/exists": [
+    "get"
+  ],
+  "/Certificate-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Certificate-base/{id}/replace": [
+    "post"
+  ],
+  "/Certificate-base/findOne": [
+    "get"
+  ],
+  "/Certificate-base/update": [
+    "post"
+  ],
+  "/Certificate-base/count": [
+    "get"
+  ],
+  "/Certificate-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/activity-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/activity-base/replaceOrCreate": [
+    "post"
+  ],
+  "/activity-base/upsertWithWhere": [
+    "post"
+  ],
+  "/activity-base/{id}/exists": [
+    "get"
+  ],
+  "/activity-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/activity-base/{id}/replace": [
+    "post"
+  ],
+  "/activity-base/findOne": [
+    "get"
+  ],
+  "/activity-base/update": [
+    "post"
+  ],
+  "/activity-base/count": [
+    "get"
+  ],
+  "/activity-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Majors/{id}/qualification": [
+    "get"
+  ],
+  "/Majors": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Majors/replaceOrCreate": [
+    "post"
+  ],
+  "/Majors/upsertWithWhere": [
+    "post"
+  ],
+  "/Majors/{id}/exists": [
+    "get"
+  ],
+  "/Majors/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Majors/{id}/replace": [
+    "post"
+  ],
+  "/Majors/findOne": [
+    "get"
+  ],
+  "/Majors/update": [
+    "post"
+  ],
+  "/Majors/count": [
+    "get"
+  ],
+  "/Majors/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobnamematches/{id}/jobname": [
+    "get"
+  ],
+  "/Jobnamematches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobnamematches/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobnamematches/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobnamematches/{id}/exists": [
+    "get"
+  ],
+  "/Jobnamematches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobnamematches/{id}/replace": [
+    "post"
+  ],
+  "/Jobnamematches/findOne": [
+    "get"
+  ],
+  "/Jobnamematches/update": [
+    "post"
+  ],
+  "/Jobnamematches/count": [
+    "get"
+  ],
+  "/Jobnamematches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobfunctionmatches/{id}/jobfunction": [
+    "get"
+  ],
+  "/Jobfunctionmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobfunctionmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobfunctionmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobfunctionmatches/{id}/exists": [
+    "get"
+  ],
+  "/Jobfunctionmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobfunctionmatches/{id}/replace": [
+    "post"
+  ],
+  "/Jobfunctionmatches/findOne": [
+    "get"
+  ],
+  "/Jobfunctionmatches/update": [
+    "post"
+  ],
+  "/Jobfunctionmatches/count": [
+    "get"
+  ],
+  "/Jobfunctionmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Competitions/{id}/competitionlevel": [
+    "get"
+  ],
+  "/Competitions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Competitions/replaceOrCreate": [
+    "post"
+  ],
+  "/Competitions/upsertWithWhere": [
+    "post"
+  ],
+  "/Competitions/{id}/exists": [
+    "get"
+  ],
+  "/Competitions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Competitions/{id}/replace": [
+    "post"
+  ],
+  "/Competitions/findOne": [
+    "get"
+  ],
+  "/Competitions/update": [
+    "post"
+  ],
+  "/Competitions/count": [
+    "get"
+  ],
+  "/Competitions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/companies-base/{id}/office/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/companies-base/{id}/companymap": [
+    "get",
+    "post",
+    "put",
+    "delete"
+  ],
+  "/companies-base/{id}/companyinfo": [
+    "get",
+    "post",
+    "put",
+    "delete"
+  ],
+  "/companies-base/{id}/companytypes": [
+    "get"
+  ],
+  "/companies-base/{id}/companyadditionalinfo": [
+    "get",
+    "post",
+    "put",
+    "delete"
+  ],
+  "/companies-base/{id}/office": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/companies-base/{id}/office/count": [
+    "get"
+  ],
+  "/companies-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/companies-base/replaceOrCreate": [
+    "post"
+  ],
+  "/companies-base/upsertWithWhere": [
+    "post"
+  ],
+  "/companies-base/{id}/exists": [
+    "get"
+  ],
+  "/companies-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/companies-base/{id}/replace": [
+    "post"
+  ],
+  "/companies-base/findOne": [
+    "get"
+  ],
+  "/companies-base/update": [
+    "post"
+  ],
+  "/companies-base/count": [
+    "get"
+  ],
+  "/companies-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/companies-base/autoComplete": [
+    "get"
+  ],
+  "/companies-base/companies": [
+    "get"
+  ],
+  "/companies-base/companyMapList": [
+    "get"
+  ],
+  "/companies-base/{companyId}/offices": [
+    "get"
+  ],
+  "/companies-base/createCompany": [
+    "post"
+  ],
+  "/Subscriptions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Subscriptions/replaceOrCreate": [
+    "post"
+  ],
+  "/Subscriptions/upsertWithWhere": [
+    "post"
+  ],
+  "/Subscriptions/{id}/exists": [
+    "get"
+  ],
+  "/Subscriptions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Subscriptions/{id}/replace": [
+    "post"
+  ],
+  "/Subscriptions/findOne": [
+    "get"
+  ],
+  "/Subscriptions/update": [
+    "post"
+  ],
+  "/Subscriptions/count": [
+    "get"
+  ],
+  "/Subscriptions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/location-base/{id}/country": [
+    "get"
+  ],
+  "/location-base/{id}/state": [
+    "get"
+  ],
+  "/location-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/location-base/replaceOrCreate": [
+    "post"
+  ],
+  "/location-base/upsertWithWhere": [
+    "post"
+  ],
+  "/location-base/{id}/exists": [
+    "get"
+  ],
+  "/location-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/location-base/{id}/replace": [
+    "post"
+  ],
+  "/location-base/findOne": [
+    "get"
+  ],
+  "/location-base/update": [
+    "post"
+  ],
+  "/location-base/count": [
+    "get"
+  ],
+  "/location-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/location-base/locationList": [
+    "get"
+  ],
+  "/Trainings/{id}/trainingtype": [
+    "get"
+  ],
+  "/Trainings": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Trainings/replaceOrCreate": [
+    "post"
+  ],
+  "/Trainings/upsertWithWhere": [
+    "post"
+  ],
+  "/Trainings/{id}/exists": [
+    "get"
+  ],
+  "/Trainings/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Trainings/{id}/replace": [
+    "post"
+  ],
+  "/Trainings/findOne": [
+    "get"
+  ],
+  "/Trainings/update": [
+    "post"
+  ],
+  "/Trainings/count": [
+    "get"
+  ],
+  "/Trainings/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Currencies/{id}/country": [
+    "get"
+  ],
+  "/Currencies": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Currencies/replaceOrCreate": [
+    "post"
+  ],
+  "/Currencies/upsertWithWhere": [
+    "post"
+  ],
+  "/Currencies/{id}/exists": [
+    "get"
+  ],
+  "/Currencies/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Currencies/{id}/replace": [
+    "post"
+  ],
+  "/Currencies/findOne": [
+    "get"
+  ],
+  "/Currencies/update": [
+    "post"
+  ],
+  "/Currencies/count": [
+    "get"
+  ],
+  "/Currencies/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Testtypes/{id}/stagetype": [
+    "get"
+  ],
+  "/Testtypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Testtypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Testtypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Testtypes/{id}/exists": [
+    "get"
+  ],
+  "/Testtypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Testtypes/{id}/replace": [
+    "post"
+  ],
+  "/Testtypes/findOne": [
+    "get"
+  ],
+  "/Testtypes/update": [
+    "post"
+  ],
+  "/Testtypes/count": [
+    "get"
+  ],
+  "/Testtypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/skill-base/{id}/skilltype": [
+    "get"
+  ],
+  "/skill-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/skill-base/replaceOrCreate": [
+    "post"
+  ],
+  "/skill-base/upsertWithWhere": [
+    "post"
+  ],
+  "/skill-base/{id}/exists": [
+    "get"
+  ],
+  "/skill-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/skill-base/{id}/replace": [
+    "post"
+  ],
+  "/skill-base/findOne": [
+    "get"
+  ],
+  "/skill-base/update": [
+    "post"
+  ],
+  "/skill-base/count": [
+    "get"
+  ],
+  "/skill-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/skill-base/autoComplete": [
+    "get"
+  ],
+  "/Stages/{id}/status": [
+    "get"
+  ],
+  "/Stages/{id}/hrStatusId": [
+    "get"
+  ],
+  "/Stages/{id}/stagetype": [
+    "get"
+  ],
+  "/Stages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Stages/replaceOrCreate": [
+    "post"
+  ],
+  "/Stages/upsertWithWhere": [
+    "post"
+  ],
+  "/Stages/{id}/exists": [
+    "get"
+  ],
+  "/Stages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Stages/{id}/replace": [
+    "post"
+  ],
+  "/Stages/findOne": [
+    "get"
+  ],
+  "/Stages/update": [
+    "post"
+  ],
+  "/Stages/count": [
+    "get"
+  ],
+  "/Stages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Companymatches/{id}/company": [
+    "get"
+  ],
+  "/Companymatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Companymatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Companymatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Companymatches/{id}/exists": [
+    "get"
+  ],
+  "/Companymatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Companymatches/{id}/replace": [
+    "post"
+  ],
+  "/Companymatches/findOne": [
+    "get"
+  ],
+  "/Companymatches/update": [
+    "post"
+  ],
+  "/Companymatches/count": [
+    "get"
+  ],
+  "/Companymatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Statematches/{id}/state": [
+    "get"
+  ],
+  "/Statematches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Statematches/replaceOrCreate": [
+    "post"
+  ],
+  "/Statematches/upsertWithWhere": [
+    "post"
+  ],
+  "/Statematches/{id}/exists": [
+    "get"
+  ],
+  "/Statematches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Statematches/{id}/replace": [
+    "post"
+  ],
+  "/Statematches/findOne": [
+    "get"
+  ],
+  "/Statematches/update": [
+    "post"
+  ],
+  "/Statematches/count": [
+    "get"
+  ],
+  "/Statematches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Locationmatches/{id}/location": [
+    "get"
+  ],
+  "/Locationmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Locationmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Locationmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Locationmatches/{id}/exists": [
+    "get"
+  ],
+  "/Locationmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Locationmatches/{id}/replace": [
+    "post"
+  ],
+  "/Locationmatches/findOne": [
+    "get"
+  ],
+  "/Locationmatches/update": [
+    "post"
+  ],
+  "/Locationmatches/count": [
+    "get"
+  ],
+  "/Locationmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Majormatches/{id}/major": [
+    "get"
+  ],
+  "/Majormatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Majormatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Majormatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Majormatches/{id}/exists": [
+    "get"
+  ],
+  "/Majormatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Majormatches/{id}/replace": [
+    "post"
+  ],
+  "/Majormatches/findOne": [
+    "get"
+  ],
+  "/Majormatches/update": [
+    "post"
+  ],
+  "/Majormatches/count": [
+    "get"
+  ],
+  "/Majormatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Certificatematches/{id}/certificate": [
+    "get"
+  ],
+  "/Certificatematches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Certificatematches/replaceOrCreate": [
+    "post"
+  ],
+  "/Certificatematches/upsertWithWhere": [
+    "post"
+  ],
+  "/Certificatematches/{id}/exists": [
+    "get"
+  ],
+  "/Certificatematches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Certificatematches/{id}/replace": [
+    "post"
+  ],
+  "/Certificatematches/findOne": [
+    "get"
+  ],
+  "/Certificatematches/update": [
+    "post"
+  ],
+  "/Certificatematches/count": [
+    "get"
+  ],
+  "/Certificatematches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Activitymatches/{id}/activity": [
+    "get"
+  ],
+  "/Activitymatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Activitymatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Activitymatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Activitymatches/{id}/exists": [
+    "get"
+  ],
+  "/Activitymatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Activitymatches/{id}/replace": [
+    "post"
+  ],
+  "/Activitymatches/findOne": [
+    "get"
+  ],
+  "/Activitymatches/update": [
+    "post"
+  ],
+  "/Activitymatches/count": [
+    "get"
+  ],
+  "/Activitymatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Trainingmatches/{id}/training": [
+    "get"
+  ],
+  "/Trainingmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Trainingmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Trainingmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Trainingmatches/{id}/exists": [
+    "get"
+  ],
+  "/Trainingmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Trainingmatches/{id}/replace": [
+    "post"
+  ],
+  "/Trainingmatches/findOne": [
+    "get"
+  ],
+  "/Trainingmatches/update": [
+    "post"
+  ],
+  "/Trainingmatches/count": [
+    "get"
+  ],
+  "/Trainingmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Competitionmatches/{id}/competition": [
+    "get"
+  ],
+  "/Competitionmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Competitionmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Competitionmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Competitionmatches/{id}/exists": [
+    "get"
+  ],
+  "/Competitionmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Competitionmatches/{id}/replace": [
+    "post"
+  ],
+  "/Competitionmatches/findOne": [
+    "get"
+  ],
+  "/Competitionmatches/update": [
+    "post"
+  ],
+  "/Competitionmatches/count": [
+    "get"
+  ],
+  "/Competitionmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Skillmatches/{id}/skill": [
+    "get"
+  ],
+  "/Skillmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Skillmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Skillmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Skillmatches/{id}/exists": [
+    "get"
+  ],
+  "/Skillmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Skillmatches/{id}/replace": [
+    "post"
+  ],
+  "/Skillmatches/findOne": [
+    "get"
+  ],
+  "/Skillmatches/update": [
+    "post"
+  ],
+  "/Skillmatches/count": [
+    "get"
+  ],
+  "/Skillmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Addresses/{id}/location": [
+    "get"
+  ],
+  "/Addresses": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Addresses/replaceOrCreate": [
+    "post"
+  ],
+  "/Addresses/upsertWithWhere": [
+    "post"
+  ],
+  "/Addresses/{id}/exists": [
+    "get"
+  ],
+  "/Addresses/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Addresses/{id}/replace": [
+    "post"
+  ],
+  "/Addresses/findOne": [
+    "get"
+  ],
+  "/Addresses/update": [
+    "post"
+  ],
+  "/Addresses/count": [
+    "get"
+  ],
+  "/Addresses/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Packages/{id}/currency": [
+    "get"
+  ],
+  "/Packages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Packages/replaceOrCreate": [
+    "post"
+  ],
+  "/Packages/upsertWithWhere": [
+    "post"
+  ],
+  "/Packages/{id}/exists": [
+    "get"
+  ],
+  "/Packages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Packages/{id}/replace": [
+    "post"
+  ],
+  "/Packages/findOne": [
+    "get"
+  ],
+  "/Packages/update": [
+    "post"
+  ],
+  "/Packages/count": [
+    "get"
+  ],
+  "/Packages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Tests/{id}/testtype": [
+    "get"
+  ],
+  "/Tests": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Tests/replaceOrCreate": [
+    "post"
+  ],
+  "/Tests/upsertWithWhere": [
+    "post"
+  ],
+  "/Tests/{id}/exists": [
+    "get"
+  ],
+  "/Tests/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Tests/{id}/replace": [
+    "post"
+  ],
+  "/Tests/findOne": [
+    "get"
+  ],
+  "/Tests/update": [
+    "post"
+  ],
+  "/Tests/count": [
+    "get"
+  ],
+  "/Tests/change-stream": [
+    "post",
+    "get"
+  ],
+  "/personactivity-base/{id}/activity": [
+    "get"
+  ],
+  "/personactivity-base/{id}/location": [
+    "get"
+  ],
+  "/personactivity-base/{id}/activitytype": [
+    "get"
+  ],
+  "/personactivity-base/{id}/profile": [
+    "get"
+  ],
+  "/personactivity-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/personactivity-base/replaceOrCreate": [
+    "post"
+  ],
+  "/personactivity-base/upsertWithWhere": [
+    "post"
+  ],
+  "/personactivity-base/{id}/exists": [
+    "get"
+  ],
+  "/personactivity-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/personactivity-base/{id}/replace": [
+    "post"
+  ],
+  "/personactivity-base/findOne": [
+    "get"
+  ],
+  "/personactivity-base/update": [
+    "post"
+  ],
+  "/personactivity-base/count": [
+    "get"
+  ],
+  "/personactivity-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationskills/{id}/skill": [
+    "get"
+  ],
+  "/Applicationskills": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationskills/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationskills/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationskills/{id}/exists": [
+    "get"
+  ],
+  "/Applicationskills/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationskills/{id}/replace": [
+    "post"
+  ],
+  "/Applicationskills/findOne": [
+    "get"
+  ],
+  "/Applicationskills/update": [
+    "post"
+  ],
+  "/Applicationskills/count": [
+    "get"
+  ],
+  "/Applicationskills/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Schoolmatches/{id}/school": [
+    "get"
+  ],
+  "/Schoolmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Schoolmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Schoolmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Schoolmatches/{id}/exists": [
+    "get"
+  ],
+  "/Schoolmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Schoolmatches/{id}/replace": [
+    "post"
+  ],
+  "/Schoolmatches/findOne": [
+    "get"
+  ],
+  "/Schoolmatches/update": [
+    "post"
+  ],
+  "/Schoolmatches/count": [
+    "get"
+  ],
+  "/Schoolmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/School-base/{id}/location": [
+    "get"
+  ],
+  "/School-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/School-base/replaceOrCreate": [
+    "post"
+  ],
+  "/School-base/upsertWithWhere": [
+    "post"
+  ],
+  "/School-base/{id}/exists": [
+    "get"
+  ],
+  "/School-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/School-base/{id}/replace": [
+    "post"
+  ],
+  "/School-base/findOne": [
+    "get"
+  ],
+  "/School-base/update": [
+    "post"
+  ],
+  "/School-base/count": [
+    "get"
+  ],
+  "/School-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationactivities/{id}/personactivity": [
+    "get"
+  ],
+  "/Applicationactivities": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationactivities/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationactivities/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationactivities/{id}/exists": [
+    "get"
+  ],
+  "/Applicationactivities/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationactivities/{id}/replace": [
+    "post"
+  ],
+  "/Applicationactivities/findOne": [
+    "get"
+  ],
+  "/Applicationactivities/update": [
+    "post"
+  ],
+  "/Applicationactivities/count": [
+    "get"
+  ],
+  "/Applicationactivities/change-stream": [
+    "post",
+    "get"
+  ],
+  "/profile-base/{id}/address": [
+    "get"
+  ],
+  "/profile-base/{id}/currency": [
+    "get"
+  ],
+  "/profile-base/{id}/gender": [
+    "get"
+  ],
+  "/profile-base/{id}/marriage": [
+    "get"
+  ],
+  "/profile-base/{id}/country": [
+    "get"
+  ],
+  "/profile-base/{id}/permanentAddressId": [
+    "get"
+  ],
+  "/profile-base/{id}/nationality": [
+    "get"
+  ],
+  "/profile-base/{id}/hireteam": [
+    "get"
+  ],
+  "/profile-base/{id}/contacts/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/profile-base/{id}/persondocument": [
+    "get"
+  ],
+  "/profile-base/{id}/applications/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/profile-base/{id}/industry": [
+    "get"
+  ],
+  "/profile-base/{id}/ethnicity": [
+    "get"
+  ],
+  "/profile-base/{id}/userprofilemap/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/profile-base/{id}/studentprofile": [
+    "get"
+  ],
+  "/profile-base/{id}/offerdetails": [
+    "get"
+  ],
+  "/profile-base/{id}/contacts": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/profile-base/{id}/contacts/count": [
+    "get"
+  ],
+  "/profile-base/{id}/applications": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/profile-base/{id}/applications/count": [
+    "get"
+  ],
+  "/profile-base/{id}/userprofilemap": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/profile-base/{id}/userprofilemap/count": [
+    "get"
+  ],
+  "/profile-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/profile-base/replaceOrCreate": [
+    "post"
+  ],
+  "/profile-base/upsertWithWhere": [
+    "post"
+  ],
+  "/profile-base/{id}/exists": [
+    "get"
+  ],
+  "/profile-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/profile-base/{id}/replace": [
+    "post"
+  ],
+  "/profile-base/findOne": [
+    "get"
+  ],
+  "/profile-base/update": [
+    "post"
+  ],
+  "/profile-base/count": [
+    "get"
+  ],
+  "/profile-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/profile-base/indexGTP": [
+    "get"
+  ],
+  "/profile-base/indexRTP": [
+    "post"
+  ],
+  "/profile-base/getGlobalTalentPool": [
+    "get"
+  ],
+  "/profile-base/filterFacets": [
+    "get"
+  ],
+  "/profile-base/getRecruiterTalentPool": [
+    "get"
+  ],
+  "/profile-base/filterFacetsRTP": [
+    "get"
+  ],
+  "/profile-base/findGlobalTalent": [
+    "get"
+  ],
+  "/profile-base/findByUser": [
+    "get"
+  ],
+  "/profile-base/getCandidateProfileDetails": [
+    "get"
+  ],
+  "/profile-base/editCandidateProfile": [
+    "post"
+  ],
+  "/profile-base/addToTalentPool": [
+    "post"
+  ],
+  "/profile-base/bulkAddToTalentPool": [
+    "post"
+  ],
+  "/profile-base/assignFromGlobalTalentPool": [
+    "post"
+  ],
+  "/profile-base/assignFromTalentPool": [
+    "post"
+  ],
+  "/profile-base/addCandidateToBucket": [
+    "post"
+  ],
+  "/offer-base/{id}/package": [
+    "get"
+  ],
+  "/offer-base/{id}/status": [
+    "get"
+  ],
+  "/offer-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/offer-base/replaceOrCreate": [
+    "post"
+  ],
+  "/offer-base/upsertWithWhere": [
+    "post"
+  ],
+  "/offer-base/{id}/exists": [
+    "get"
+  ],
+  "/offer-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/offer-base/{id}/replace": [
+    "post"
+  ],
+  "/offer-base/findOne": [
+    "get"
+  ],
+  "/offer-base/update": [
+    "post"
+  ],
+  "/offer-base/count": [
+    "get"
+  ],
+  "/offer-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Personskills/{id}/profile": [
+    "get"
+  ],
+  "/Personskills/{id}/skill": [
+    "get"
+  ],
+  "/Personskills": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Personskills/replaceOrCreate": [
+    "post"
+  ],
+  "/Personskills/upsertWithWhere": [
+    "post"
+  ],
+  "/Personskills/{id}/exists": [
+    "get"
+  ],
+  "/Personskills/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Personskills/{id}/replace": [
+    "post"
+  ],
+  "/Personskills/findOne": [
+    "get"
+  ],
+  "/Personskills/update": [
+    "post"
+  ],
+  "/Personskills/count": [
+    "get"
+  ],
+  "/Personskills/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Divisions/{id}/office": [
+    "get"
+  ],
+  "/Divisions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Divisions/replaceOrCreate": [
+    "post"
+  ],
+  "/Divisions/upsertWithWhere": [
+    "post"
+  ],
+  "/Divisions/{id}/exists": [
+    "get"
+  ],
+  "/Divisions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Divisions/{id}/replace": [
+    "post"
+  ],
+  "/Divisions/findOne": [
+    "get"
+  ],
+  "/Divisions/update": [
+    "post"
+  ],
+  "/Divisions/count": [
+    "get"
+  ],
+  "/Divisions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/office-base/{id}/address": [
+    "get"
+  ],
+  "/office-base/{id}/company": [
+    "get"
+  ],
+  "/office-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/office-base/replaceOrCreate": [
+    "post"
+  ],
+  "/office-base/upsertWithWhere": [
+    "post"
+  ],
+  "/office-base/{id}/exists": [
+    "get"
+  ],
+  "/office-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/office-base/{id}/replace": [
+    "post"
+  ],
+  "/office-base/findOne": [
+    "get"
+  ],
+  "/office-base/update": [
+    "post"
+  ],
+  "/office-base/count": [
+    "get"
+  ],
+  "/office-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Admins/{id}/address": [
+    "get"
+  ],
+  "/Admins/{id}/country": [
+    "get"
+  ],
+  "/Admins/{id}/gender": [
+    "get"
+  ],
+  "/Admins/{id}/userinfo": [
+    "get"
+  ],
+  "/Admins": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Admins/replaceOrCreate": [
+    "post"
+  ],
+  "/Admins/upsertWithWhere": [
+    "post"
+  ],
+  "/Admins/{id}/exists": [
+    "get"
+  ],
+  "/Admins/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Admins/{id}/replace": [
+    "post"
+  ],
+  "/Admins/findOne": [
+    "get"
+  ],
+  "/Admins/update": [
+    "post"
+  ],
+  "/Admins/count": [
+    "get"
+  ],
+  "/Admins/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Personfolders/{id}/profile": [
+    "get"
+  ],
+  "/Personfolders": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Personfolders/replaceOrCreate": [
+    "post"
+  ],
+  "/Personfolders/upsertWithWhere": [
+    "post"
+  ],
+  "/Personfolders/{id}/exists": [
+    "get"
+  ],
+  "/Personfolders/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Personfolders/{id}/replace": [
+    "post"
+  ],
+  "/Personfolders/findOne": [
+    "get"
+  ],
+  "/Personfolders/update": [
+    "post"
+  ],
+  "/Personfolders/count": [
+    "get"
+  ],
+  "/Personfolders/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Personmobiles/{id}/country": [
+    "get"
+  ],
+  "/Personmobiles/{id}/profile": [
+    "get"
+  ],
+  "/Personmobiles": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Personmobiles/replaceOrCreate": [
+    "post"
+  ],
+  "/Personmobiles/upsertWithWhere": [
+    "post"
+  ],
+  "/Personmobiles/{id}/exists": [
+    "get"
+  ],
+  "/Personmobiles/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Personmobiles/{id}/replace": [
+    "post"
+  ],
+  "/Personmobiles/findOne": [
+    "get"
+  ],
+  "/Personmobiles/update": [
+    "post"
+  ],
+  "/Personmobiles/count": [
+    "get"
+  ],
+  "/Personmobiles/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workexperiences/{id}/profile": [
+    "get"
+  ],
+  "/Workexperiences/{id}/currency": [
+    "get"
+  ],
+  "/Workexperiences/{id}/job": [
+    "get"
+  ],
+  "/Workexperiences/{id}/industry": [
+    "get"
+  ],
+  "/Workexperiences": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workexperiences/replaceOrCreate": [
+    "post"
+  ],
+  "/Workexperiences/upsertWithWhere": [
+    "post"
+  ],
+  "/Workexperiences/{id}/exists": [
+    "get"
+  ],
+  "/Workexperiences/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workexperiences/{id}/replace": [
+    "post"
+  ],
+  "/Workexperiences/findOne": [
+    "get"
+  ],
+  "/Workexperiences/update": [
+    "post"
+  ],
+  "/Workexperiences/count": [
+    "get"
+  ],
+  "/Workexperiences/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Personqualifications/{id}/major": [
+    "get"
+  ],
+  "/Personqualifications/{id}/school": [
+    "get"
+  ],
+  "/Personqualifications/{id}/qualification": [
+    "get"
+  ],
+  "/Personqualifications/{id}/profile": [
+    "get"
+  ],
+  "/Personqualifications/{id}/qualificationtype": [
+    "get"
+  ],
+  "/Personqualifications/{id}/hourtype": [
+    "get"
+  ],
+  "/Personqualifications": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Personqualifications/replaceOrCreate": [
+    "post"
+  ],
+  "/Personqualifications/upsertWithWhere": [
+    "post"
+  ],
+  "/Personqualifications/{id}/exists": [
+    "get"
+  ],
+  "/Personqualifications/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Personqualifications/{id}/replace": [
+    "post"
+  ],
+  "/Personqualifications/findOne": [
+    "get"
+  ],
+  "/Personqualifications/update": [
+    "post"
+  ],
+  "/Personqualifications/count": [
+    "get"
+  ],
+  "/Personqualifications/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobs-base/{id}/company": [
+    "get"
+  ],
+  "/jobs-base/{id}/country": [
+    "get"
+  ],
+  "/jobs-base/{id}/currency": [
+    "get"
+  ],
+  "/jobs-base/{id}/currentCompany": [
+    "get"
+  ],
+  "/jobs-base/{id}/recuitercompany": [
+    "get"
+  ],
+  "/jobs-base/{id}/jobfunction": [
+    "get"
+  ],
+  "/jobs-base/{id}/major": [
+    "get"
+  ],
+  "/jobs-base/{id}/jobname": [
+    "get"
+  ],
+  "/jobs-base/{id}/office": [
+    "get"
+  ],
+  "/jobs-base/{id}/qualificationtype": [
+    "get"
+  ],
+  "/jobs-base/{id}/jobseniority": [
+    "get"
+  ],
+  "/jobs-base/{id}/hireteam": [
+    "get"
+  ],
+  "/jobs-base/{id}/location": [
+    "get"
+  ],
+  "/jobs-base/{id}/jobWorkflow": [
+    "get"
+  ],
+  "/jobs-base/{id}/institution": [
+    "get"
+  ],
+  "/jobs-base/{id}/skills/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/jobs-base/{id}/term": [
+    "get"
+  ],
+  "/jobs-base/{id}/hourtype": [
+    "get"
+  ],
+  "/jobs-base/{id}/userinfo": [
+    "get"
+  ],
+  "/jobs-base/{id}/industry": [
+    "get"
+  ],
+  "/jobs-base/{id}/collaboration/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/jobs-base/{id}/jobworkflowstages/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/jobs-base/{id}/externaljobmapping": [
+    "get",
+    "post",
+    "put",
+    "delete"
+  ],
+  "/jobs-base/{id}/jobAdditionalInfo": [
+    "get",
+    "post",
+    "put",
+    "delete"
+  ],
+  "/jobs-base/{id}/cities": [
+    "get"
+  ],
+  "/jobs-base/{id}/workdays": [
+    "get"
+  ],
+  "/jobs-base/{id}/grant": [
+    "get"
+  ],
+  "/jobs-base/{id}/jobsupervisor": [
+    "get"
+  ],
+  "/jobs-base/{id}/skills": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/jobs-base/{id}/skills/count": [
+    "get"
+  ],
+  "/jobs-base/{id}/collaboration": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/jobs-base/{id}/collaboration/count": [
+    "get"
+  ],
+  "/jobs-base/{id}/jobworkflowstages": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/jobs-base/{id}/jobworkflowstages/count": [
+    "get"
+  ],
+  "/jobs-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/jobs-base/replaceOrCreate": [
+    "post"
+  ],
+  "/jobs-base/upsertWithWhere": [
+    "post"
+  ],
+  "/jobs-base/{id}/exists": [
+    "get"
+  ],
+  "/jobs-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/jobs-base/{id}/replace": [
+    "post"
+  ],
+  "/jobs-base/findOne": [
+    "get"
+  ],
+  "/jobs-base/update": [
+    "post"
+  ],
+  "/jobs-base/count": [
+    "get"
+  ],
+  "/jobs-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobs-base/findOpenJobs": [
+    "get"
+  ],
+  "/jobs-base/getJob": [
+    "get"
+  ],
+  "/jobs-base/metaInformation": [
+    "get"
+  ],
+  "/jobs-base/dashboard": [
+    "get"
+  ],
+  "/jobs-base/findByLocation": [
+    "get"
+  ],
+  "/jobs-base/findByDesignation": [
+    "get"
+  ],
+  "/jobs-base/findBySeniority": [
+    "get"
+  ],
+  "/jobs-base/findByPostDate": [
+    "get"
+  ],
+  "/jobs-base/createJob": [
+    "post"
+  ],
+  "/jobs-base/cloneJob": [
+    "post"
+  ],
+  "/jobs-base/editJob": [
+    "post"
+  ],
+  "/jobs-base/jobDescription": [
+    "get"
+  ],
+  "/jobs-base/browseCandidateJobs": [
+    "get"
+  ],
+  "/jobs-base/indexPublicJobs": [
+    "get"
+  ],
+  "/jobs-base/browseJobs": [
+    "get"
+  ],
+  "/jobs-base/filterFacets": [
+    "get"
+  ],
+  "/jobs-base/closeJob": [
+    "post"
+  ],
+  "/jobs-base/reopenJob": [
+    "post"
+  ],
+  "/jobs-base/updateRecruiterIds": [
+    "get"
+  ],
+  "/jobs-base/collaborators": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/jobs-base/getAnalytics": [
+    "get"
+  ],
+  "/Persondocuments/{id}/profile": [
+    "get"
+  ],
+  "/Persondocuments/{id}/documenttype": [
+    "get"
+  ],
+  "/Persondocuments": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Persondocuments/replaceOrCreate": [
+    "post"
+  ],
+  "/Persondocuments/upsertWithWhere": [
+    "post"
+  ],
+  "/Persondocuments/{id}/exists": [
+    "get"
+  ],
+  "/Persondocuments/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Persondocuments/{id}/replace": [
+    "post"
+  ],
+  "/Persondocuments/findOne": [
+    "get"
+  ],
+  "/Persondocuments/update": [
+    "post"
+  ],
+  "/Persondocuments/count": [
+    "get"
+  ],
+  "/Persondocuments/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Persondocuments/findScoresByDocumentId": [
+    "get"
+  ],
+  "/Persondocuments/pages": [
+    "post"
+  ],
+  "/Persondocuments/cv": [
+    "get"
+  ],
+  "/Persondocuments/cvDownload": [
+    "get"
+  ],
+  "/Persondocuments/downloadCandidateDoc": [
+    "get"
+  ],
+  "/Persondocuments/uploadEconsent": [
+    "post"
+  ],
+  "/Applicationqualifications/{id}/personqualification": [
+    "get"
+  ],
+  "/Applicationqualifications": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationqualifications/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationqualifications/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationqualifications/{id}/exists": [
+    "get"
+  ],
+  "/Applicationqualifications/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationqualifications/{id}/replace": [
+    "post"
+  ],
+  "/Applicationqualifications/findOne": [
+    "get"
+  ],
+  "/Applicationqualifications/update": [
+    "post"
+  ],
+  "/Applicationqualifications/count": [
+    "get"
+  ],
+  "/Applicationqualifications/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Personawards/{id}/competition": [
+    "get"
+  ],
+  "/Personawards/{id}/profile": [
+    "get"
+  ],
+  "/Personawards/{id}/awardtype": [
+    "get"
+  ],
+  "/Personawards": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Personawards/replaceOrCreate": [
+    "post"
+  ],
+  "/Personawards/upsertWithWhere": [
+    "post"
+  ],
+  "/Personawards/{id}/exists": [
+    "get"
+  ],
+  "/Personawards/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Personawards/{id}/replace": [
+    "post"
+  ],
+  "/Personawards/findOne": [
+    "get"
+  ],
+  "/Personawards/update": [
+    "post"
+  ],
+  "/Personawards/count": [
+    "get"
+  ],
+  "/Personawards/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Officequestions/{id}/office": [
+    "get"
+  ],
+  "/Officequestions/{id}/question": [
+    "get"
+  ],
+  "/Officequestions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Officequestions/replaceOrCreate": [
+    "post"
+  ],
+  "/Officequestions/upsertWithWhere": [
+    "post"
+  ],
+  "/Officequestions/{id}/exists": [
+    "get"
+  ],
+  "/Officequestions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Officequestions/{id}/replace": [
+    "post"
+  ],
+  "/Officequestions/findOne": [
+    "get"
+  ],
+  "/Officequestions/update": [
+    "post"
+  ],
+  "/Officequestions/count": [
+    "get"
+  ],
+  "/Officequestions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/application-base/{id}/status": [
+    "get"
+  ],
+  "/application-base/{id}/job": [
+    "get"
+  ],
+  "/application-base/{id}/personmobile": [
+    "get"
+  ],
+  "/application-base/{id}/profile": [
+    "get"
+  ],
+  "/application-base/{id}/hireteam": [
+    "get"
+  ],
+  "/application-base/{id}/userinfo": [
+    "get"
+  ],
+  "/application-base/{id}/applicationsource": [
+    "get"
+  ],
+  "/application-base/{id}/applicationemail/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/application-base/{id}/applicationemail": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/application-base/{id}/applicationemail/count": [
+    "get"
+  ],
+  "/application-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/application-base/replaceOrCreate": [
+    "post"
+  ],
+  "/application-base/upsertWithWhere": [
+    "post"
+  ],
+  "/application-base/{id}/exists": [
+    "get"
+  ],
+  "/application-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/application-base/{id}/replace": [
+    "post"
+  ],
+  "/application-base/findOne": [
+    "get"
+  ],
+  "/application-base/update": [
+    "post"
+  ],
+  "/application-base/count": [
+    "get"
+  ],
+  "/application-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/application-base/indexScreeningApplns": [
+    "post"
+  ],
+  "/application-base/findAllUserJobApplicants": [
+    "get"
+  ],
+  "/application-base/getUserInviteApplication": [
+    "get"
+  ],
+  "/application-base/rejectInvitation": [
+    "patch"
+  ],
+  "/application-base/getCandidateApplications": [
+    "get"
+  ],
+  "/application-base/getotherJobAppliedStatus": [
+    "get"
+  ],
+  "/application-base/getAssetAnalytics": [
+    "get"
+  ],
+  "/application-base/bulkShortlist": [
+    "patch"
+  ],
+  "/application-base/bulkIsliked": [
+    "patch"
+  ],
+  "/application-base/userApplMap": [
+    "post"
+  ],
+  "/application-base/shareCV": [
+    "post"
+  ],
+  "/application-base/auto-shortlist": [
+    "post"
+  ],
+  "/Jobskills/{id}/job": [
+    "get"
+  ],
+  "/Jobskills/{id}/requirement": [
+    "get"
+  ],
+  "/Jobskills/{id}/skill": [
+    "get"
+  ],
+  "/Jobskills": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobskills/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobskills/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobskills/{id}/exists": [
+    "get"
+  ],
+  "/Jobskills/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobskills/{id}/replace": [
+    "post"
+  ],
+  "/Jobskills/findOne": [
+    "get"
+  ],
+  "/Jobskills/update": [
+    "post"
+  ],
+  "/Jobskills/count": [
+    "get"
+  ],
+  "/Jobskills/change-stream": [
+    "post",
+    "get"
+  ],
+  "/usersubscription-base/{id}/userinfo": [
+    "get"
+  ],
+  "/usersubscription-base/{id}/productsubscription": [
+    "get"
+  ],
+  "/usersubscription-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/usersubscription-base/replaceOrCreate": [
+    "post"
+  ],
+  "/usersubscription-base/upsertWithWhere": [
+    "post"
+  ],
+  "/usersubscription-base/{id}/exists": [
+    "get"
+  ],
+  "/usersubscription-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/usersubscription-base/{id}/replace": [
+    "post"
+  ],
+  "/usersubscription-base/findOne": [
+    "get"
+  ],
+  "/usersubscription-base/update": [
+    "post"
+  ],
+  "/usersubscription-base/count": [
+    "get"
+  ],
+  "/usersubscription-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/usersubscription-base/createUserSubscription": [
+    "post"
+  ],
+  "/usersubscription-base/getUserSubscription": [
+    "get"
+  ],
+  "/Worktrainings/{id}/currency": [
+    "get"
+  ],
+  "/Worktrainings/{id}/workexperience": [
+    "get"
+  ],
+  "/Worktrainings/{id}/training": [
+    "get"
+  ],
+  "/Worktrainings": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Worktrainings/replaceOrCreate": [
+    "post"
+  ],
+  "/Worktrainings/upsertWithWhere": [
+    "post"
+  ],
+  "/Worktrainings/{id}/exists": [
+    "get"
+  ],
+  "/Worktrainings/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Worktrainings/{id}/replace": [
+    "post"
+  ],
+  "/Worktrainings/findOne": [
+    "get"
+  ],
+  "/Worktrainings/update": [
+    "post"
+  ],
+  "/Worktrainings/count": [
+    "get"
+  ],
+  "/Worktrainings/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationstages/{id}/feedback": [
+    "get"
+  ],
+  "/Applicationstages/{id}/stage": [
+    "get"
+  ],
+  "/Applicationstages/{id}/application": [
+    "get"
+  ],
+  "/Applicationstages/{id}/userinfo": [
+    "get"
+  ],
+  "/Applicationstages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationstages/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationstages/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationstages/{id}/exists": [
+    "get"
+  ],
+  "/Applicationstages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationstages/{id}/replace": [
+    "post"
+  ],
+  "/Applicationstages/findOne": [
+    "get"
+  ],
+  "/Applicationstages/update": [
+    "post"
+  ],
+  "/Applicationstages/count": [
+    "get"
+  ],
+  "/Applicationstages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workbenefits/{id}/currency": [
+    "get"
+  ],
+  "/Workbenefits/{id}/workexperience": [
+    "get"
+  ],
+  "/Workbenefits": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workbenefits/replaceOrCreate": [
+    "post"
+  ],
+  "/Workbenefits/upsertWithWhere": [
+    "post"
+  ],
+  "/Workbenefits/{id}/exists": [
+    "get"
+  ],
+  "/Workbenefits/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workbenefits/{id}/replace": [
+    "post"
+  ],
+  "/Workbenefits/findOne": [
+    "get"
+  ],
+  "/Workbenefits/update": [
+    "post"
+  ],
+  "/Workbenefits/count": [
+    "get"
+  ],
+  "/Workbenefits/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationdocuments/{id}/persondocument": [
+    "get"
+  ],
+  "/Applicationdocuments": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationdocuments/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationdocuments/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationdocuments/{id}/exists": [
+    "get"
+  ],
+  "/Applicationdocuments/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationdocuments/{id}/replace": [
+    "post"
+  ],
+  "/Applicationdocuments/findOne": [
+    "get"
+  ],
+  "/Applicationdocuments/update": [
+    "post"
+  ],
+  "/Applicationdocuments/count": [
+    "get"
+  ],
+  "/Applicationdocuments/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationtests/{id}/application": [
+    "get"
+  ],
+  "/Applicationtests": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationtests/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationtests/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationtests/{id}/exists": [
+    "get"
+  ],
+  "/Applicationtests/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationtests/{id}/replace": [
+    "post"
+  ],
+  "/Applicationtests/findOne": [
+    "get"
+  ],
+  "/Applicationtests/update": [
+    "post"
+  ],
+  "/Applicationtests/count": [
+    "get"
+  ],
+  "/Applicationtests/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationawards/{id}/personaward": [
+    "get"
+  ],
+  "/Applicationawards": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationawards/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationawards/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationawards/{id}/exists": [
+    "get"
+  ],
+  "/Applicationawards/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationawards/{id}/replace": [
+    "post"
+  ],
+  "/Applicationawards/findOne": [
+    "get"
+  ],
+  "/Applicationawards/update": [
+    "post"
+  ],
+  "/Applicationawards/count": [
+    "get"
+  ],
+  "/Applicationawards/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationquestions/{id}/application": [
+    "get"
+  ],
+  "/Applicationquestions/{id}/officequestion": [
+    "get"
+  ],
+  "/Applicationquestions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationquestions/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationquestions/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationquestions/{id}/exists": [
+    "get"
+  ],
+  "/Applicationquestions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationquestions/{id}/replace": [
+    "post"
+  ],
+  "/Applicationquestions/findOne": [
+    "get"
+  ],
+  "/Applicationquestions/update": [
+    "post"
+  ],
+  "/Applicationquestions/count": [
+    "get"
+  ],
+  "/Applicationquestions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationoffers/{id}/application": [
+    "get"
+  ],
+  "/Applicationoffers/{id}/offer": [
+    "get"
+  ],
+  "/Applicationoffers": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationoffers/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationoffers/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationoffers/{id}/exists": [
+    "get"
+  ],
+  "/Applicationoffers/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationoffers/{id}/replace": [
+    "post"
+  ],
+  "/Applicationoffers/findOne": [
+    "get"
+  ],
+  "/Applicationoffers/update": [
+    "post"
+  ],
+  "/Applicationoffers/count": [
+    "get"
+  ],
+  "/Applicationoffers/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Terms": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Terms/replaceOrCreate": [
+    "post"
+  ],
+  "/Terms/upsertWithWhere": [
+    "post"
+  ],
+  "/Terms/{id}/exists": [
+    "get"
+  ],
+  "/Terms/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Terms/{id}/replace": [
+    "post"
+  ],
+  "/Terms/findOne": [
+    "get"
+  ],
+  "/Terms/update": [
+    "post"
+  ],
+  "/Terms/count": [
+    "get"
+  ],
+  "/Terms/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Hourtypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Hourtypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Hourtypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Hourtypes/{id}/exists": [
+    "get"
+  ],
+  "/Hourtypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Hourtypes/{id}/replace": [
+    "post"
+  ],
+  "/Hourtypes/findOne": [
+    "get"
+  ],
+  "/Hourtypes/update": [
+    "post"
+  ],
+  "/Hourtypes/count": [
+    "get"
+  ],
+  "/Hourtypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobrolenames": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobrolenames/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobrolenames/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobrolenames/{id}/exists": [
+    "get"
+  ],
+  "/Jobrolenames/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobrolenames/{id}/replace": [
+    "post"
+  ],
+  "/Jobrolenames/findOne": [
+    "get"
+  ],
+  "/Jobrolenames/update": [
+    "post"
+  ],
+  "/Jobrolenames/count": [
+    "get"
+  ],
+  "/Jobrolenames/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Domains/{id}/company": [
+    "get"
+  ],
+  "/Domains": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Domains/replaceOrCreate": [
+    "post"
+  ],
+  "/Domains/upsertWithWhere": [
+    "post"
+  ],
+  "/Domains/{id}/exists": [
+    "get"
+  ],
+  "/Domains/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Domains/{id}/replace": [
+    "post"
+  ],
+  "/Domains/findOne": [
+    "get"
+  ],
+  "/Domains/update": [
+    "post"
+  ],
+  "/Domains/count": [
+    "get"
+  ],
+  "/Domains/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobroles/{id}/job": [
+    "get"
+  ],
+  "/Jobroles/{id}/jobrolename": [
+    "get"
+  ],
+  "/Jobroles": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobroles/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobroles/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobroles/{id}/exists": [
+    "get"
+  ],
+  "/Jobroles/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobroles/{id}/replace": [
+    "post"
+  ],
+  "/Jobroles/findOne": [
+    "get"
+  ],
+  "/Jobroles/update": [
+    "post"
+  ],
+  "/Jobroles/count": [
+    "get"
+  ],
+  "/Jobroles/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Userroles": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Userroles/replaceOrCreate": [
+    "post"
+  ],
+  "/Userroles/upsertWithWhere": [
+    "post"
+  ],
+  "/Userroles/{id}/exists": [
+    "get"
+  ],
+  "/Userroles/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Userroles/{id}/replace": [
+    "post"
+  ],
+  "/Userroles/findOne": [
+    "get"
+  ],
+  "/Userroles/update": [
+    "post"
+  ],
+  "/Userroles/count": [
+    "get"
+  ],
+  "/Userroles/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Roles": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Roles/replaceOrCreate": [
+    "post"
+  ],
+  "/Roles/upsertWithWhere": [
+    "post"
+  ],
+  "/Roles/{id}/exists": [
+    "get"
+  ],
+  "/Roles/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Roles/{id}/replace": [
+    "post"
+  ],
+  "/Roles/findOne": [
+    "get"
+  ],
+  "/Roles/update": [
+    "post"
+  ],
+  "/Roles/count": [
+    "get"
+  ],
+  "/Roles/change-stream": [
+    "post",
+    "get"
+  ],
+  "/userinfo-base/{id}/office": [
+    "get"
+  ],
+  "/userinfo-base/{id}/user": [
+    "get"
+  ],
+  "/userinfo-base/{id}/userrole": [
+    "get"
+  ],
+  "/userinfo-base/{id}/company": [
+    "get"
+  ],
+  "/userinfo-base/{id}/userprofilemap/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/userinfo-base/{id}/courses": [
+    "get"
+  ],
+  "/userinfo-base/{id}/faculty": [
+    "get"
+  ],
+  "/userinfo-base/{id}/saluation": [
+    "get"
+  ],
+  "/userinfo-base/{id}/courseadmassignment/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/userinfo-base/{id}/userprofilemap": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/userinfo-base/{id}/userprofilemap/count": [
+    "get"
+  ],
+  "/userinfo-base/{id}/courseadmassignment": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/userinfo-base/{id}/courseadmassignment/count": [
+    "get"
+  ],
+  "/userinfo-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/userinfo-base/replaceOrCreate": [
+    "post"
+  ],
+  "/userinfo-base/upsertWithWhere": [
+    "post"
+  ],
+  "/userinfo-base/{id}/exists": [
+    "get"
+  ],
+  "/userinfo-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/userinfo-base/{id}/replace": [
+    "post"
+  ],
+  "/userinfo-base/findOne": [
+    "get"
+  ],
+  "/userinfo-base/update": [
+    "post"
+  ],
+  "/userinfo-base/count": [
+    "get"
+  ],
+  "/userinfo-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/userinfo-base/register": [
+    "post"
+  ],
+  "/userinfo-base/update-password": [
+    "post"
+  ],
+  "/userinfo-base/reset-password": [
+    "post"
+  ],
+  "/userinfo-base/profileInformation": [
+    "get"
+  ],
+  "/userinfo-base/getUserInfo": [
+    "get"
+  ],
+  "/userinfo-base/getTalentPoolInviteInfo": [
+    "get"
+  ],
+  "/userinfo-base/getUserUsageReport": [
+    "get"
+  ],
+  "/userinfo-base/talentPoolSharing": [
+    "post"
+  ],
+  "/userinfo-base/updatePublicVisibility": [
+    "post"
+  ],
+  "/userinfo-base/authorizedUsers": [
+    "get"
+  ],
+  "/userinfo-base/candidateInfo": [
+    "delete",
+    "get"
+  ],
+  "/userinfo-base/getRecruiterInfo": [
+    "get"
+  ],
+  "/industries": [
+    "get"
+  ],
+  "/Industrymatches/{id}/industry": [
+    "get"
+  ],
+  "/Industrymatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Industrymatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Industrymatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Industrymatches/{id}/exists": [
+    "get"
+  ],
+  "/Industrymatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Industrymatches/{id}/replace": [
+    "post"
+  ],
+  "/Industrymatches/findOne": [
+    "get"
+  ],
+  "/Industrymatches/update": [
+    "post"
+  ],
+  "/Industrymatches/count": [
+    "get"
+  ],
+  "/Industrymatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Forms": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Forms/replaceOrCreate": [
+    "post"
+  ],
+  "/Forms/upsertWithWhere": [
+    "post"
+  ],
+  "/Forms/{id}/exists": [
+    "get"
+  ],
+  "/Forms/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Forms/{id}/replace": [
+    "post"
+  ],
+  "/Forms/findOne": [
+    "get"
+  ],
+  "/Forms/update": [
+    "post"
+  ],
+  "/Forms/count": [
+    "get"
+  ],
+  "/Forms/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Ethnicities": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Ethnicities/replaceOrCreate": [
+    "post"
+  ],
+  "/Ethnicities/upsertWithWhere": [
+    "post"
+  ],
+  "/Ethnicities/{id}/exists": [
+    "get"
+  ],
+  "/Ethnicities/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Ethnicities/{id}/replace": [
+    "post"
+  ],
+  "/Ethnicities/findOne": [
+    "get"
+  ],
+  "/Ethnicities/update": [
+    "post"
+  ],
+  "/Ethnicities/count": [
+    "get"
+  ],
+  "/Ethnicities/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Sizesizes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Sizesizes/replaceOrCreate": [
+    "post"
+  ],
+  "/Sizesizes/upsertWithWhere": [
+    "post"
+  ],
+  "/Sizesizes/{id}/exists": [
+    "get"
+  ],
+  "/Sizesizes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Sizesizes/{id}/replace": [
+    "post"
+  ],
+  "/Sizesizes/findOne": [
+    "get"
+  ],
+  "/Sizesizes/update": [
+    "post"
+  ],
+  "/Sizesizes/count": [
+    "get"
+  ],
+  "/Sizesizes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Companyforms/{id}/company": [
+    "get"
+  ],
+  "/Companyforms/{id}/form": [
+    "get"
+  ],
+  "/Companyforms": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Companyforms/replaceOrCreate": [
+    "post"
+  ],
+  "/Companyforms/upsertWithWhere": [
+    "post"
+  ],
+  "/Companyforms/{id}/exists": [
+    "get"
+  ],
+  "/Companyforms/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Companyforms/{id}/replace": [
+    "post"
+  ],
+  "/Companyforms/findOne": [
+    "get"
+  ],
+  "/Companyforms/update": [
+    "post"
+  ],
+  "/Companyforms/count": [
+    "get"
+  ],
+  "/Companyforms/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Companyindustries/{id}/company": [
+    "get"
+  ],
+  "/Companyindustries/{id}/industry": [
+    "get"
+  ],
+  "/Companyindustries": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Companyindustries/replaceOrCreate": [
+    "post"
+  ],
+  "/Companyindustries/upsertWithWhere": [
+    "post"
+  ],
+  "/Companyindustries/{id}/exists": [
+    "get"
+  ],
+  "/Companyindustries/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Companyindustries/{id}/replace": [
+    "post"
+  ],
+  "/Companyindustries/findOne": [
+    "get"
+  ],
+  "/Companyindustries/update": [
+    "post"
+  ],
+  "/Companyindustries/count": [
+    "get"
+  ],
+  "/Companyindustries/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Companysizes/{id}/company": [
+    "get"
+  ],
+  "/Companysizes/{id}/sizesize": [
+    "get"
+  ],
+  "/Companysizes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Companysizes/replaceOrCreate": [
+    "post"
+  ],
+  "/Companysizes/upsertWithWhere": [
+    "post"
+  ],
+  "/Companysizes/{id}/exists": [
+    "get"
+  ],
+  "/Companysizes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Companysizes/{id}/replace": [
+    "post"
+  ],
+  "/Companysizes/findOne": [
+    "get"
+  ],
+  "/Companysizes/update": [
+    "post"
+  ],
+  "/Companysizes/count": [
+    "get"
+  ],
+  "/Companysizes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/email-templates": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/email-templates/replaceOrCreate": [
+    "post"
+  ],
+  "/email-templates/upsertWithWhere": [
+    "post"
+  ],
+  "/email-templates/{id}/exists": [
+    "get"
+  ],
+  "/email-templates/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/email-templates/{id}/replace": [
+    "post"
+  ],
+  "/email-templates/findOne": [
+    "get"
+  ],
+  "/email-templates/update": [
+    "post"
+  ],
+  "/email-templates/count": [
+    "get"
+  ],
+  "/email-templates/change-stream": [
+    "post",
+    "get"
+  ],
+  "/email-templates/templates": [
+    "get"
+  ],
+  "/email-templates/templates/{templateId}": [
+    "get",
+    "post",
+    "patch"
+  ],
+  "/email-templates/send-email/{templateId}": [
+    "post"
+  ],
+  "/Profilehiremembers/{id}/userinfo": [
+    "get"
+  ],
+  "/Profilehiremembers/{id}/hireteam": [
+    "get"
+  ],
+  "/Profilehiremembers/{id}/userrole": [
+    "get"
+  ],
+  "/Profilehiremembers": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Profilehiremembers/replaceOrCreate": [
+    "post"
+  ],
+  "/Profilehiremembers/upsertWithWhere": [
+    "post"
+  ],
+  "/Profilehiremembers/{id}/exists": [
+    "get"
+  ],
+  "/Profilehiremembers/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Profilehiremembers/{id}/replace": [
+    "post"
+  ],
+  "/Profilehiremembers/findOne": [
+    "get"
+  ],
+  "/Profilehiremembers/update": [
+    "post"
+  ],
+  "/Profilehiremembers/count": [
+    "get"
+  ],
+  "/Profilehiremembers/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobhiremembers/{id}/userinfo": [
+    "get"
+  ],
+  "/Jobhiremembers/{id}/hireteam": [
+    "get"
+  ],
+  "/Jobhiremembers/{id}/userrole": [
+    "get"
+  ],
+  "/Jobhiremembers": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobhiremembers/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobhiremembers/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobhiremembers/{id}/exists": [
+    "get"
+  ],
+  "/Jobhiremembers/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobhiremembers/{id}/replace": [
+    "post"
+  ],
+  "/Jobhiremembers/findOne": [
+    "get"
+  ],
+  "/Jobhiremembers/update": [
+    "post"
+  ],
+  "/Jobhiremembers/count": [
+    "get"
+  ],
+  "/Jobhiremembers/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Userprofilemaps/{id}/profile": [
+    "get"
+  ],
+  "/Userprofilemaps/{id}/userinfo": [
+    "get"
+  ],
+  "/Userprofilemaps": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Userprofilemaps/replaceOrCreate": [
+    "post"
+  ],
+  "/Userprofilemaps/upsertWithWhere": [
+    "post"
+  ],
+  "/Userprofilemaps/{id}/exists": [
+    "get"
+  ],
+  "/Userprofilemaps/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Userprofilemaps/{id}/replace": [
+    "post"
+  ],
+  "/Userprofilemaps/findOne": [
+    "get"
+  ],
+  "/Userprofilemaps/update": [
+    "post"
+  ],
+  "/Userprofilemaps/count": [
+    "get"
+  ],
+  "/Userprofilemaps/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Outcomes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Outcomes/replaceOrCreate": [
+    "post"
+  ],
+  "/Outcomes/upsertWithWhere": [
+    "post"
+  ],
+  "/Outcomes/{id}/exists": [
+    "get"
+  ],
+  "/Outcomes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Outcomes/{id}/replace": [
+    "post"
+  ],
+  "/Outcomes/findOne": [
+    "get"
+  ],
+  "/Outcomes/update": [
+    "post"
+  ],
+  "/Outcomes/count": [
+    "get"
+  ],
+  "/Outcomes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workflowstagetypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowstagetypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowstagetypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowstagetypes/{id}/exists": [
+    "get"
+  ],
+  "/Workflowstagetypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowstagetypes/{id}/replace": [
+    "post"
+  ],
+  "/Workflowstagetypes/findOne": [
+    "get"
+  ],
+  "/Workflowstagetypes/update": [
+    "post"
+  ],
+  "/Workflowstagetypes/count": [
+    "get"
+  ],
+  "/Workflowstagetypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workflowsubstages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowsubstages/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowsubstages/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowsubstages/{id}/exists": [
+    "get"
+  ],
+  "/Workflowsubstages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowsubstages/{id}/replace": [
+    "post"
+  ],
+  "/Workflowsubstages/findOne": [
+    "get"
+  ],
+  "/Workflowsubstages/update": [
+    "post"
+  ],
+  "/Workflowsubstages/count": [
+    "get"
+  ],
+  "/Workflowsubstages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workflowstagetypesubstagesconfigs/{id}/workflowstagetype": [
+    "get"
+  ],
+  "/Workflowstagetypesubstagesconfigs": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowstagetypesubstagesconfigs/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowstagetypesubstagesconfigs/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowstagetypesubstagesconfigs/{id}/exists": [
+    "get"
+  ],
+  "/Workflowstagetypesubstagesconfigs/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowstagetypesubstagesconfigs/{id}/replace": [
+    "post"
+  ],
+  "/Workflowstagetypesubstagesconfigs/findOne": [
+    "get"
+  ],
+  "/Workflowstagetypesubstagesconfigs/update": [
+    "post"
+  ],
+  "/Workflowstagetypesubstagesconfigs/count": [
+    "get"
+  ],
+  "/Workflowstagetypesubstagesconfigs/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workflowstages/{id}/workflowstagetype": [
+    "get"
+  ],
+  "/Workflowstages/{id}/workflowstagetypesubstagesconfig": [
+    "get"
+  ],
+  "/Workflowstages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowstages/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowstages/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowstages/{id}/exists": [
+    "get"
+  ],
+  "/Workflowstages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowstages/{id}/replace": [
+    "post"
+  ],
+  "/Workflowstages/findOne": [
+    "get"
+  ],
+  "/Workflowstages/update": [
+    "post"
+  ],
+  "/Workflowstages/count": [
+    "get"
+  ],
+  "/Workflowstages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workflowstages/getAllWorkflowStages": [
+    "get"
+  ],
+  "/workflow-base/{id}/userinfo": [
+    "get"
+  ],
+  "/workflow-base/{id}/outcome": [
+    "get"
+  ],
+  "/workflow-base/{id}/workflowstage": [
+    "get"
+  ],
+  "/workflow-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/workflow-base/replaceOrCreate": [
+    "post"
+  ],
+  "/workflow-base/upsertWithWhere": [
+    "post"
+  ],
+  "/workflow-base/{id}/exists": [
+    "get"
+  ],
+  "/workflow-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/workflow-base/{id}/replace": [
+    "post"
+  ],
+  "/workflow-base/findOne": [
+    "get"
+  ],
+  "/workflow-base/update": [
+    "post"
+  ],
+  "/workflow-base/count": [
+    "get"
+  ],
+  "/workflow-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/workflow-base/getAllUserWorkflow": [
+    "get"
+  ],
+  "/workflow-base/getApplicationWorkflow": [
+    "get"
+  ],
+  "/workflow-base/assignWorkflowToApplicant": [
+    "post"
+  ],
+  "/workflow-base/assignWorkflowToJob": [
+    "post"
+  ],
+  "/workflow-base/assignSubStageToUser": [
+    "post"
+  ],
+  "/workflow-base/clone": [
+    "post"
+  ],
+  "/workflow-base/updateSubStage": [
+    "post"
+  ],
+  "/workflow-base/skipStage": [
+    "post"
+  ],
+  "/workflow-base/updateStageConfigs": [
+    "post"
+  ],
+  "/Workflowapplicationstages/{id}/outcome": [
+    "get"
+  ],
+  "/Workflowapplicationstages/{id}/workflowstage": [
+    "get"
+  ],
+  "/Workflowapplicationstages/{id}/application": [
+    "get"
+  ],
+  "/Workflowapplicationstages/{id}/workflowsubstages": [
+    "get"
+  ],
+  "/Workflowapplicationstages/{id}/videointerviews": [
+    "get"
+  ],
+  "/Workflowapplicationstages/{id}/writtenassessment": [
+    "get"
+  ],
+  "/Workflowapplicationstages/{id}/calendarevents": [
+    "get"
+  ],
+  "/Workflowapplicationstages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowapplicationstages/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowapplicationstages/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowapplicationstages/{id}/exists": [
+    "get"
+  ],
+  "/Workflowapplicationstages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowapplicationstages/{id}/replace": [
+    "post"
+  ],
+  "/Workflowapplicationstages/findOne": [
+    "get"
+  ],
+  "/Workflowapplicationstages/update": [
+    "post"
+  ],
+  "/Workflowapplicationstages/count": [
+    "get"
+  ],
+  "/Workflowapplicationstages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationworkflows/{id}/application": [
+    "get"
+  ],
+  "/Applicationworkflows/{id}/workflow": [
+    "get"
+  ],
+  "/Applicationworkflows": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationworkflows/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationworkflows/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationworkflows/{id}/exists": [
+    "get"
+  ],
+  "/Applicationworkflows/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationworkflows/{id}/replace": [
+    "post"
+  ],
+  "/Applicationworkflows/findOne": [
+    "get"
+  ],
+  "/Applicationworkflows/update": [
+    "post"
+  ],
+  "/Applicationworkflows/count": [
+    "get"
+  ],
+  "/Applicationworkflows/change-stream": [
+    "post",
+    "get"
+  ],
+  "/workflowsubstage-base/{id}/userrole": [
+    "get"
+  ],
+  "/workflowsubstage-base/{id}/workflowapplicationstage": [
+    "get"
+  ],
+  "/workflowsubstage-base/{id}/workflowsubstages": [
+    "get"
+  ],
+  "/workflowsubstage-base/{id}/userinfo": [
+    "get"
+  ],
+  "/workflowsubstage-base/{id}/workflowappstageuserfeedback": [
+    "get"
+  ],
+  "/workflowsubstage-base/{id}/workflowdocuments/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/workflowsubstage-base/{id}/workflowdocuments": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/workflowsubstage-base/{id}/workflowdocuments/count": [
+    "get"
+  ],
+  "/workflowsubstage-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/workflowsubstage-base/replaceOrCreate": [
+    "post"
+  ],
+  "/workflowsubstage-base/upsertWithWhere": [
+    "post"
+  ],
+  "/workflowsubstage-base/{id}/exists": [
+    "get"
+  ],
+  "/workflowsubstage-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/workflowsubstage-base/{id}/replace": [
+    "post"
+  ],
+  "/workflowsubstage-base/findOne": [
+    "get"
+  ],
+  "/workflowsubstage-base/update": [
+    "post"
+  ],
+  "/workflowsubstage-base/count": [
+    "get"
+  ],
+  "/workflowsubstage-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workflowappstageuserfeedbacks/{id}/outcome": [
+    "get"
+  ],
+  "/Workflowappstageuserfeedbacks": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowappstageuserfeedbacks/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowappstageuserfeedbacks/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowappstageuserfeedbacks/{id}/exists": [
+    "get"
+  ],
+  "/Workflowappstageuserfeedbacks/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowappstageuserfeedbacks/{id}/replace": [
+    "post"
+  ],
+  "/Workflowappstageuserfeedbacks/findOne": [
+    "get"
+  ],
+  "/Workflowappstageuserfeedbacks/update": [
+    "post"
+  ],
+  "/Workflowappstageuserfeedbacks/count": [
+    "get"
+  ],
+  "/Workflowappstageuserfeedbacks/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationhiremembers/{id}/hireteam": [
+    "get"
+  ],
+  "/Applicationhiremembers/{id}/userinfo": [
+    "get"
+  ],
+  "/Applicationhiremembers/{id}/userrole": [
+    "get"
+  ],
+  "/Applicationhiremembers": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationhiremembers/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationhiremembers/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationhiremembers/{id}/exists": [
+    "get"
+  ],
+  "/Applicationhiremembers/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationhiremembers/{id}/replace": [
+    "post"
+  ],
+  "/Applicationhiremembers/findOne": [
+    "get"
+  ],
+  "/Applicationhiremembers/update": [
+    "post"
+  ],
+  "/Applicationhiremembers/count": [
+    "get"
+  ],
+  "/Applicationhiremembers/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationworkexperiences/{id}/workexperience": [
+    "get"
+  ],
+  "/Applicationworkexperiences": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationworkexperiences/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationworkexperiences/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationworkexperiences/{id}/exists": [
+    "get"
+  ],
+  "/Applicationworkexperiences/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationworkexperiences/{id}/replace": [
+    "post"
+  ],
+  "/Applicationworkexperiences/findOne": [
+    "get"
+  ],
+  "/Applicationworkexperiences/update": [
+    "post"
+  ],
+  "/Applicationworkexperiences/count": [
+    "get"
+  ],
+  "/Applicationworkexperiences/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Useractions/{id}/userinfo": [
+    "get"
+  ],
+  "/Useractions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Useractions/replaceOrCreate": [
+    "post"
+  ],
+  "/Useractions/upsertWithWhere": [
+    "post"
+  ],
+  "/Useractions/{id}/exists": [
+    "get"
+  ],
+  "/Useractions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Useractions/{id}/replace": [
+    "post"
+  ],
+  "/Useractions/findOne": [
+    "get"
+  ],
+  "/Useractions/update": [
+    "post"
+  ],
+  "/Useractions/count": [
+    "get"
+  ],
+  "/Useractions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/videointerviews-base/{id}/job": [
+    "get"
+  ],
+  "/videointerviews-base/{id}/company": [
+    "get"
+  ],
+  "/videointerviews-base/{id}/application": [
+    "get"
+  ],
+  "/videointerviews-base/{id}/profile": [
+    "get"
+  ],
+  "/videointerviews-base/{id}/companyinfo": [
+    "get"
+  ],
+  "/videointerviews-base/{id}/videointerviewgroup": [
+    "get"
+  ],
+  "/videointerviews-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/videointerviews-base/replaceOrCreate": [
+    "post"
+  ],
+  "/videointerviews-base/upsertWithWhere": [
+    "post"
+  ],
+  "/videointerviews-base/{id}/exists": [
+    "get"
+  ],
+  "/videointerviews-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/videointerviews-base/{id}/replace": [
+    "post"
+  ],
+  "/videointerviews-base/findOne": [
+    "get"
+  ],
+  "/videointerviews-base/update": [
+    "post"
+  ],
+  "/videointerviews-base/count": [
+    "get"
+  ],
+  "/videointerviews-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/videointerviews-base/interview": [
+    "post"
+  ],
+  "/videointerviews-base/geturl": [
+    "post"
+  ],
+  "/videointerviews-base/getinterviews": [
+    "get"
+  ],
+  "/videointerviews-base/get-interview": [
+    "post"
+  ],
+  "/videointerviews-base/responses": [
+    "post"
+  ],
+  "/videointerviews-base/videoInterviewRating": [
+    "post"
+  ],
+  "/videointerviews-base/getVideoInterviewDetails": [
+    "get"
+  ],
+  "/videointerviews-base/answers": [
+    "post"
+  ],
+  "/videointerviews-base/status": [
+    "put"
+  ],
+  "/videointerviews-base/reminder": [
+    "post"
+  ],
+  "/Productsubscriptions/{id}/subscription": [
+    "get"
+  ],
+  "/Productsubscriptions/{id}/product": [
+    "get"
+  ],
+  "/Productsubscriptions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Productsubscriptions/replaceOrCreate": [
+    "post"
+  ],
+  "/Productsubscriptions/upsertWithWhere": [
+    "post"
+  ],
+  "/Productsubscriptions/{id}/exists": [
+    "get"
+  ],
+  "/Productsubscriptions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Productsubscriptions/{id}/replace": [
+    "post"
+  ],
+  "/Productsubscriptions/findOne": [
+    "get"
+  ],
+  "/Productsubscriptions/update": [
+    "post"
+  ],
+  "/Productsubscriptions/count": [
+    "get"
+  ],
+  "/Productsubscriptions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/companymap-base/{id}/company": [
+    "get"
+  ],
+  "/companymap-base/{id}/parentCompany": [
+    "get"
+  ],
+  "/companymap-base/{id}/userinfo": [
+    "get"
+  ],
+  "/companymap-base/{id}/acceptedByRel": [
+    "get"
+  ],
+  "/companymap-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/companymap-base/replaceOrCreate": [
+    "post"
+  ],
+  "/companymap-base/upsertWithWhere": [
+    "post"
+  ],
+  "/companymap-base/{id}/exists": [
+    "get"
+  ],
+  "/companymap-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/companymap-base/{id}/replace": [
+    "post"
+  ],
+  "/companymap-base/findOne": [
+    "get"
+  ],
+  "/companymap-base/update": [
+    "post"
+  ],
+  "/companymap-base/count": [
+    "get"
+  ],
+  "/companymap-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/companymap-base/createMappings": [
+    "post"
+  ],
+  "/companymap-base/deleteMappings": [
+    "delete"
+  ],
+  "/companymap-base/authorizedCompanies": [
+    "get"
+  ],
+  "/companymap-base/authorizeNewCompany": [
+    "post"
+  ],
+  "/companymap-base/switchCompany": [
+    "get"
+  ],
+  "/companyusermap-base/{id}/company": [
+    "get"
+  ],
+  "/companyusermap-base/{id}/userinfo": [
+    "get"
+  ],
+  "/companyusermap-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/companyusermap-base/replaceOrCreate": [
+    "post"
+  ],
+  "/companyusermap-base/upsertWithWhere": [
+    "post"
+  ],
+  "/companyusermap-base/{id}/exists": [
+    "get"
+  ],
+  "/companyusermap-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/companyusermap-base/{id}/replace": [
+    "post"
+  ],
+  "/companyusermap-base/findOne": [
+    "get"
+  ],
+  "/companyusermap-base/update": [
+    "post"
+  ],
+  "/companyusermap-base/count": [
+    "get"
+  ],
+  "/companyusermap-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/companyusermap-base/createUserMappings": [
+    "post"
+  ],
+  "/companyusermap-base/deleteUserMappings": [
+    "delete"
+  ],
+  "/Userinviteemailmap-base/{id}/userinfo": [
+    "get"
+  ],
+  "/Userinviteemailmap-base/{id}/acceptedByRel": [
+    "get"
+  ],
+  "/Userinviteemailmap-base/{id}/requestedByRel": [
+    "get"
+  ],
+  "/Userinviteemailmap-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Userinviteemailmap-base/replaceOrCreate": [
+    "post"
+  ],
+  "/Userinviteemailmap-base/upsertWithWhere": [
+    "post"
+  ],
+  "/Userinviteemailmap-base/{id}/exists": [
+    "get"
+  ],
+  "/Userinviteemailmap-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Userinviteemailmap-base/{id}/replace": [
+    "post"
+  ],
+  "/Userinviteemailmap-base/findOne": [
+    "get"
+  ],
+  "/Userinviteemailmap-base/update": [
+    "post"
+  ],
+  "/Userinviteemailmap-base/count": [
+    "get"
+  ],
+  "/Userinviteemailmap-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Userinviteemailmap-base/createMappings": [
+    "post"
+  ],
+  "/Userinviteemailmap-base/deleteMappings": [
+    "delete"
+  ],
+  "/Userinviteemailmap-base/invites": [
+    "get"
+  ],
+  "/Userinviteemailmap-base/register": [
+    "post"
+  ],
+  "/Userinviteemailmap-base/invite": [
+    "post"
+  ],
+  "/Candidatejobmatches/{id}/profile": [
+    "get"
+  ],
+  "/Candidatejobmatches/{id}/job": [
+    "get"
+  ],
+  "/Candidatejobmatches": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Candidatejobmatches/replaceOrCreate": [
+    "post"
+  ],
+  "/Candidatejobmatches/upsertWithWhere": [
+    "post"
+  ],
+  "/Candidatejobmatches/{id}/exists": [
+    "get"
+  ],
+  "/Candidatejobmatches/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Candidatejobmatches/{id}/replace": [
+    "post"
+  ],
+  "/Candidatejobmatches/findOne": [
+    "get"
+  ],
+  "/Candidatejobmatches/update": [
+    "post"
+  ],
+  "/Candidatejobmatches/count": [
+    "get"
+  ],
+  "/Candidatejobmatches/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Candidatejobmatches/getRecommendedJobs": [
+    "get"
+  ],
+  "/Ratingmetrictypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Ratingmetrictypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Ratingmetrictypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Ratingmetrictypes/{id}/exists": [
+    "get"
+  ],
+  "/Ratingmetrictypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Ratingmetrictypes/{id}/replace": [
+    "post"
+  ],
+  "/Ratingmetrictypes/findOne": [
+    "get"
+  ],
+  "/Ratingmetrictypes/update": [
+    "post"
+  ],
+  "/Ratingmetrictypes/count": [
+    "get"
+  ],
+  "/Ratingmetrictypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Ratingmetrics/{id}/ratingmetrictype": [
+    "get"
+  ],
+  "/Ratingmetrics": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Ratingmetrics/replaceOrCreate": [
+    "post"
+  ],
+  "/Ratingmetrics/upsertWithWhere": [
+    "post"
+  ],
+  "/Ratingmetrics/{id}/exists": [
+    "get"
+  ],
+  "/Ratingmetrics/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Ratingmetrics/{id}/replace": [
+    "post"
+  ],
+  "/Ratingmetrics/findOne": [
+    "get"
+  ],
+  "/Ratingmetrics/update": [
+    "post"
+  ],
+  "/Ratingmetrics/count": [
+    "get"
+  ],
+  "/Ratingmetrics/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Referenceinvites/{id}/userinfo": [
+    "get"
+  ],
+  "/Referenceinvites": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Referenceinvites/replaceOrCreate": [
+    "post"
+  ],
+  "/Referenceinvites/upsertWithWhere": [
+    "post"
+  ],
+  "/Referenceinvites/{id}/exists": [
+    "get"
+  ],
+  "/Referenceinvites/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Referenceinvites/{id}/replace": [
+    "post"
+  ],
+  "/Referenceinvites/findOne": [
+    "get"
+  ],
+  "/Referenceinvites/update": [
+    "post"
+  ],
+  "/Referenceinvites/count": [
+    "get"
+  ],
+  "/Referenceinvites/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Referenceinvites/getReferenceInviteConfigs": [
+    "get"
+  ],
+  "/Referenceinvites/postReferenceFeedback": [
+    "post"
+  ],
+  "/Referenceinvites/references": [
+    "post",
+    "get"
+  ],
+  "/Referenceinvites/references-given": [
+    "get"
+  ],
+  "/Referenceinvites/user-references": [
+    "get"
+  ],
+  "/Referenceinvites/validate": [
+    "get"
+  ],
+  "/Referenceratings/{id}/referenceinvite": [
+    "get"
+  ],
+  "/Referenceratings/{id}/ratingmetrics": [
+    "get"
+  ],
+  "/Referenceratings": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Referenceratings/replaceOrCreate": [
+    "post"
+  ],
+  "/Referenceratings/upsertWithWhere": [
+    "post"
+  ],
+  "/Referenceratings/{id}/exists": [
+    "get"
+  ],
+  "/Referenceratings/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Referenceratings/{id}/replace": [
+    "post"
+  ],
+  "/Referenceratings/findOne": [
+    "get"
+  ],
+  "/Referenceratings/update": [
+    "post"
+  ],
+  "/Referenceratings/count": [
+    "get"
+  ],
+  "/Referenceratings/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Referenceratingconfigs/{id}/referenceinvite": [
+    "get"
+  ],
+  "/Referenceratingconfigs": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Referenceratingconfigs/replaceOrCreate": [
+    "post"
+  ],
+  "/Referenceratingconfigs/upsertWithWhere": [
+    "post"
+  ],
+  "/Referenceratingconfigs/{id}/exists": [
+    "get"
+  ],
+  "/Referenceratingconfigs/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Referenceratingconfigs/{id}/replace": [
+    "post"
+  ],
+  "/Referenceratingconfigs/findOne": [
+    "get"
+  ],
+  "/Referenceratingconfigs/update": [
+    "post"
+  ],
+  "/Referenceratingconfigs/count": [
+    "get"
+  ],
+  "/Referenceratingconfigs/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationscores/{id}/application": [
+    "get"
+  ],
+  "/Applicationscores": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationscores/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationscores/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationscores/{id}/exists": [
+    "get"
+  ],
+  "/Applicationscores/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationscores/{id}/replace": [
+    "post"
+  ],
+  "/Applicationscores/findOne": [
+    "get"
+  ],
+  "/Applicationscores/update": [
+    "post"
+  ],
+  "/Applicationscores/count": [
+    "get"
+  ],
+  "/Applicationscores/change-stream": [
+    "post",
+    "get"
+  ],
+  "/buckets-base/{id}/userinfo": [
+    "get"
+  ],
+  "/buckets-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/buckets-base/replaceOrCreate": [
+    "post"
+  ],
+  "/buckets-base/upsertWithWhere": [
+    "post"
+  ],
+  "/buckets-base/{id}/exists": [
+    "get"
+  ],
+  "/buckets-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/buckets-base/{id}/replace": [
+    "post"
+  ],
+  "/buckets-base/findOne": [
+    "get"
+  ],
+  "/buckets-base/update": [
+    "post"
+  ],
+  "/buckets-base/count": [
+    "get"
+  ],
+  "/buckets-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/buckets-base/createBucket": [
+    "post"
+  ],
+  "/buckets-base/editBucket": [
+    "post"
+  ],
+  "/buckets-base/deleteBucket": [
+    "delete"
+  ],
+  "/buckets-base/getBucketDetails": [
+    "get"
+  ],
+  "/Profiletalentpoolbucketsmaps/{id}/profilehiremember": [
+    "get"
+  ],
+  "/Profiletalentpoolbucketsmaps/{id}/buckets": [
+    "get"
+  ],
+  "/Profiletalentpoolbucketsmaps": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Profiletalentpoolbucketsmaps/replaceOrCreate": [
+    "post"
+  ],
+  "/Profiletalentpoolbucketsmaps/upsertWithWhere": [
+    "post"
+  ],
+  "/Profiletalentpoolbucketsmaps/{id}/exists": [
+    "get"
+  ],
+  "/Profiletalentpoolbucketsmaps/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Profiletalentpoolbucketsmaps/{id}/replace": [
+    "post"
+  ],
+  "/Profiletalentpoolbucketsmaps/findOne": [
+    "get"
+  ],
+  "/Profiletalentpoolbucketsmaps/update": [
+    "post"
+  ],
+  "/Profiletalentpoolbucketsmaps/count": [
+    "get"
+  ],
+  "/Profiletalentpoolbucketsmaps/change-stream": [
+    "post",
+    "get"
+  ],
+  "/company-info/{id}/company": [
+    "get"
+  ],
+  "/company-info": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/company-info/replaceOrCreate": [
+    "post"
+  ],
+  "/company-info/upsertWithWhere": [
+    "post"
+  ],
+  "/company-info/{id}/exists": [
+    "get"
+  ],
+  "/company-info/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/company-info/{id}/replace": [
+    "post"
+  ],
+  "/company-info/findOne": [
+    "get"
+  ],
+  "/company-info/update": [
+    "post"
+  ],
+  "/company-info/count": [
+    "get"
+  ],
+  "/company-info/change-stream": [
+    "post",
+    "get"
+  ],
+  "/company-info/get": [
+    "get"
+  ],
+  "/companyinfos/update": [
+    "post"
+  ],
+  "/companyinfos/get": [
+    "get"
+  ],
+  "/Enterprise/indexElasticsearch": [
+    "get"
+  ],
+  "/RegistrationRequest/registerStudent": [
+    "post"
+  ],
+  "/RegistrationRequest": [
+    "post"
+  ],
+  "/RegistrationRequest/registerRecruiter": [
+    "post"
+  ],
+  "/RegistrationRequest/registerInstitution": [
+    "post"
+  ],
+  "/questionbank-base/{id}/userinfo": [
+    "get"
+  ],
+  "/questionbank-base/{id}/company": [
+    "get"
+  ],
+  "/questionbank-base/{id}/questiontype": [
+    "get"
+  ],
+  "/questionbank-base/{id}/category": [
+    "get"
+  ],
+  "/questionbank-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/questionbank-base/replaceOrCreate": [
+    "post"
+  ],
+  "/questionbank-base/upsertWithWhere": [
+    "post"
+  ],
+  "/questionbank-base/{id}/exists": [
+    "get"
+  ],
+  "/questionbank-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/questionbank-base/{id}/replace": [
+    "post"
+  ],
+  "/questionbank-base/findOne": [
+    "get"
+  ],
+  "/questionbank-base/update": [
+    "post"
+  ],
+  "/questionbank-base/count": [
+    "get"
+  ],
+  "/questionbank-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/questionbank-base/addQuestions": [
+    "post"
+  ],
+  "/questionbank-base/editQuestions": [
+    "post"
+  ],
+  "/questionbank-base/deleteQuestion": [
+    "delete"
+  ],
+  "/questionbank-base/getQuestions": [
+    "get"
+  ],
+  "/Questiontypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Questiontypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Questiontypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Questiontypes/{id}/exists": [
+    "get"
+  ],
+  "/Questiontypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Questiontypes/{id}/replace": [
+    "post"
+  ],
+  "/Questiontypes/findOne": [
+    "get"
+  ],
+  "/Questiontypes/update": [
+    "post"
+  ],
+  "/Questiontypes/count": [
+    "get"
+  ],
+  "/Questiontypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/writtenassessment-base/{id}/userinfo": [
+    "get"
+  ],
+  "/writtenassessment-base/{id}/candidateId": [
+    "get"
+  ],
+  "/writtenassessment-base/{id}/job": [
+    "get"
+  ],
+  "/writtenassessment-base/{id}/application": [
+    "get"
+  ],
+  "/writtenassessment-base/{id}/company": [
+    "get"
+  ],
+  "/writtenassessment-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/writtenassessment-base/replaceOrCreate": [
+    "post"
+  ],
+  "/writtenassessment-base/upsertWithWhere": [
+    "post"
+  ],
+  "/writtenassessment-base/{id}/exists": [
+    "get"
+  ],
+  "/writtenassessment-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/writtenassessment-base/{id}/replace": [
+    "post"
+  ],
+  "/writtenassessment-base/findOne": [
+    "get"
+  ],
+  "/writtenassessment-base/update": [
+    "post"
+  ],
+  "/writtenassessment-base/count": [
+    "get"
+  ],
+  "/writtenassessment-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/writtenassessment-base/upsertAssessment": [
+    "post"
+  ],
+  "/writtenassessment-base/send-invite": [
+    "post"
+  ],
+  "/writtenassessment-base/getAssessmentDetails": [
+    "get"
+  ],
+  "/writtenassessment-base/assessments": [
+    "get"
+  ],
+  "/writtenassessment-base/examStatusUpdate": [
+    "post"
+  ],
+  "/writtenassessment-base/retakes": [
+    "post",
+    "patch"
+  ],
+  "/writtenassessmentresponse-base/{id}/writtenassessment": [
+    "get"
+  ],
+  "/writtenassessmentresponse-base/{id}/questionbank": [
+    "get"
+  ],
+  "/writtenassessmentresponse-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/writtenassessmentresponse-base/replaceOrCreate": [
+    "post"
+  ],
+  "/writtenassessmentresponse-base/upsertWithWhere": [
+    "post"
+  ],
+  "/writtenassessmentresponse-base/{id}/exists": [
+    "get"
+  ],
+  "/writtenassessmentresponse-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/writtenassessmentresponse-base/{id}/replace": [
+    "post"
+  ],
+  "/writtenassessmentresponse-base/findOne": [
+    "get"
+  ],
+  "/writtenassessmentresponse-base/update": [
+    "post"
+  ],
+  "/writtenassessmentresponse-base/count": [
+    "get"
+  ],
+  "/writtenassessmentresponse-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/writtenassessmentresponse-base/candidateResponse": [
+    "post"
+  ],
+  "/writtenassessmentresponse-base/getcandidateResponse": [
+    "get"
+  ],
+  "/cronofy/{id}/userinfo": [
+    "get"
+  ],
+  "/cronofy": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/cronofy/replaceOrCreate": [
+    "post"
+  ],
+  "/cronofy/upsertWithWhere": [
+    "post"
+  ],
+  "/cronofy/{id}/exists": [
+    "get"
+  ],
+  "/cronofy/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/cronofy/{id}/replace": [
+    "post"
+  ],
+  "/cronofy/findOne": [
+    "get"
+  ],
+  "/cronofy/update": [
+    "post"
+  ],
+  "/cronofy/count": [
+    "get"
+  ],
+  "/cronofy/change-stream": [
+    "post",
+    "get"
+  ],
+  "/cronofy/token": [
+    "post"
+  ],
+  "/cronofy/user-profiles": [
+    "get"
+  ],
+  "/cronofy/refresh-user-calendars": [
+    "get"
+  ],
+  "/cronofy/user-calendars": [
+    "get"
+  ],
+  "/cronofy/revoke-profile": [
+    "post"
+  ],
+  "/cronofy/real-time-schedule": [
+    "post"
+  ],
+  "/cronofy/available-slots": [
+    "post"
+  ],
+  "/cronofy/rts-cb": [
+    "post"
+  ],
+  "/cronofy/events": [
+    "post"
+  ],
+  "/cronofy/elemtoken": [
+    "post"
+  ],
+  "/cronofy/events/{eventId}": [
+    "delete"
+  ],
+  "/cronofy/events/{eventId}/accept": [
+    "patch"
+  ],
+  "/cronofy/events/{eventId}/reject": [
+    "patch"
+  ],
+  "/cronofy/islots": [
+    "get"
+  ],
+  "/cronofy/manual-schedule": [
+    "post"
+  ],
+  "/Cronofytokens/{id}/userinfo": [
+    "get"
+  ],
+  "/Cronofytokens": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Cronofytokens/replaceOrCreate": [
+    "post"
+  ],
+  "/Cronofytokens/upsertWithWhere": [
+    "post"
+  ],
+  "/Cronofytokens/{id}/exists": [
+    "get"
+  ],
+  "/Cronofytokens/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Cronofytokens/{id}/replace": [
+    "post"
+  ],
+  "/Cronofytokens/findOne": [
+    "get"
+  ],
+  "/Cronofytokens/update": [
+    "post"
+  ],
+  "/Cronofytokens/count": [
+    "get"
+  ],
+  "/Cronofytokens/change-stream": [
+    "post",
+    "get"
+  ],
+  "/events-base/{id}/application": [
+    "get"
+  ],
+  "/events-base/{id}/workflowapplicationstage": [
+    "get"
+  ],
+  "/events-base/{id}/zoommeetings": [
+    "get"
+  ],
+  "/events-base/{id}/institutionslots": [
+    "get"
+  ],
+  "/events-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/events-base/replaceOrCreate": [
+    "post"
+  ],
+  "/events-base/upsertWithWhere": [
+    "post"
+  ],
+  "/events-base/{id}/exists": [
+    "get"
+  ],
+  "/events-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/events-base/{id}/replace": [
+    "post"
+  ],
+  "/events-base/findOne": [
+    "get"
+  ],
+  "/events-base/update": [
+    "post"
+  ],
+  "/events-base/count": [
+    "get"
+  ],
+  "/events-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Applicationsources": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Applicationsources/replaceOrCreate": [
+    "post"
+  ],
+  "/Applicationsources/upsertWithWhere": [
+    "post"
+  ],
+  "/Applicationsources/{id}/exists": [
+    "get"
+  ],
+  "/Applicationsources/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Applicationsources/{id}/replace": [
+    "post"
+  ],
+  "/Applicationsources/findOne": [
+    "get"
+  ],
+  "/Applicationsources/update": [
+    "post"
+  ],
+  "/Applicationsources/count": [
+    "get"
+  ],
+  "/Applicationsources/change-stream": [
+    "post",
+    "get"
+  ],
+  "/videointerviewresponses-base/{id}/videointerviews": [
+    "get"
+  ],
+  "/videointerviewresponses-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/videointerviewresponses-base/replaceOrCreate": [
+    "post"
+  ],
+  "/videointerviewresponses-base/upsertWithWhere": [
+    "post"
+  ],
+  "/videointerviewresponses-base/{id}/exists": [
+    "get"
+  ],
+  "/videointerviewresponses-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/videointerviewresponses-base/{id}/replace": [
+    "post"
+  ],
+  "/videointerviewresponses-base/findOne": [
+    "get"
+  ],
+  "/videointerviewresponses-base/update": [
+    "post"
+  ],
+  "/videointerviewresponses-base/count": [
+    "get"
+  ],
+  "/videointerviewresponses-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobworkflowstage/{id}/videointerviews": [
+    "get"
+  ],
+  "/jobworkflowstage/{id}/writtenassessment": [
+    "get"
+  ],
+  "/jobworkflowstage/{id}/job": [
+    "get"
+  ],
+  "/jobworkflowstage/{id}/workflow": [
+    "get"
+  ],
+  "/jobworkflowstage/{id}/workflowstage": [
+    "get"
+  ],
+  "/jobworkflowstage": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/jobworkflowstage/replaceOrCreate": [
+    "post"
+  ],
+  "/jobworkflowstage/upsertWithWhere": [
+    "post"
+  ],
+  "/jobworkflowstage/{id}/exists": [
+    "get"
+  ],
+  "/jobworkflowstage/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/jobworkflowstage/{id}/replace": [
+    "post"
+  ],
+  "/jobworkflowstage/findOne": [
+    "get"
+  ],
+  "/jobworkflowstage/update": [
+    "post"
+  ],
+  "/jobworkflowstage/count": [
+    "get"
+  ],
+  "/jobworkflowstage/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobboardinfos": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobboardinfos/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobboardinfos/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobboardinfos/{id}/exists": [
+    "get"
+  ],
+  "/Jobboardinfos/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobboardinfos/{id}/replace": [
+    "post"
+  ],
+  "/Jobboardinfos/findOne": [
+    "get"
+  ],
+  "/Jobboardinfos/update": [
+    "post"
+  ],
+  "/Jobboardinfos/count": [
+    "get"
+  ],
+  "/Jobboardinfos/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Aryajobcredentials/{id}/companymarketplacemap": [
+    "get"
+  ],
+  "/Aryajobcredentials/{id}/jobboardinfo": [
+    "get"
+  ],
+  "/Aryajobcredentials": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Aryajobcredentials/replaceOrCreate": [
+    "post"
+  ],
+  "/Aryajobcredentials/upsertWithWhere": [
+    "post"
+  ],
+  "/Aryajobcredentials/{id}/exists": [
+    "get"
+  ],
+  "/Aryajobcredentials/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Aryajobcredentials/{id}/replace": [
+    "post"
+  ],
+  "/Aryajobcredentials/findOne": [
+    "get"
+  ],
+  "/Aryajobcredentials/update": [
+    "post"
+  ],
+  "/Aryajobcredentials/count": [
+    "get"
+  ],
+  "/Aryajobcredentials/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Externaljobmappings/{id}/marketplaceapps": [
+    "get"
+  ],
+  "/Externaljobmappings/{id}/userinfo": [
+    "get"
+  ],
+  "/Externaljobmappings/{id}/company": [
+    "get"
+  ],
+  "/Externaljobmappings": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Externaljobmappings/replaceOrCreate": [
+    "post"
+  ],
+  "/Externaljobmappings/upsertWithWhere": [
+    "post"
+  ],
+  "/Externaljobmappings/{id}/exists": [
+    "get"
+  ],
+  "/Externaljobmappings/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Externaljobmappings/{id}/replace": [
+    "post"
+  ],
+  "/Externaljobmappings/findOne": [
+    "get"
+  ],
+  "/Externaljobmappings/update": [
+    "post"
+  ],
+  "/Externaljobmappings/count": [
+    "get"
+  ],
+  "/Externaljobmappings/change-stream": [
+    "post",
+    "get"
+  ],
+  "/applications/dashboards": [
+    "get"
+  ],
+  "/applications/{applicationId}": [
+    "get",
+    "delete"
+  ],
+  "/applications": [
+    "get",
+    "patch"
+  ],
+  "/applications/invitations/{inviteId}": [
+    "get",
+    "patch"
+  ],
+  "/applications/offerinvites/{inviteId}": [
+    "get",
+    "patch"
+  ],
+  "/applications/invites/{inviteId}": [
+    "patch"
+  ],
+  "/applications/{applicationId}/shares": [
+    "post"
+  ],
+  "/applications/auto-shortlist": [
+    "post"
+  ],
+  "/applications/reverse-auto-reject": [
+    "post"
+  ],
+  "/applications/{applicationId}/workflows": [
+    "post",
+    "get"
+  ],
+  "/applications/scores/{taskId}": [
+    "get"
+  ],
+  "/applications/indexApplications": [
+    "get"
+  ],
+  "/applications/{profileId}/count": [
+    "get"
+  ],
+  "/applications/exports": [
+    "get"
+  ],
+  "/applications/reverseplacement": [
+    "patch"
+  ],
+  "/applications/getJobsWithCompany": [
+    "get"
+  ],
+  "/applications/transferApplication": [
+    "patch"
+  ],
+  "/applications/reversal/shortlisted": [
+    "post"
+  ],
+  "/applications/reversal/hired": [
+    "post"
+  ],
+  "/applications/check-timeout": [
+    "get"
+  ],
+  "/applications/after-shortlist/check-timeout": [
+    "get"
+  ],
+  "/applications/after-interview/offline/check-timeout": [
+    "get"
+  ],
+  "/applications/after-timeslot-company/online/check-timeout": [
+    "get"
+  ],
+  "/applications/after-interview/online/check-timeout": [
+    "get"
+  ],
+  "/applications/after-offer/check-timeout": [
+    "get"
+  ],
+  "/applications/after-offer/accepted/check-timeout": [
+    "get"
+  ],
+  "/jobs": [
+    "get",
+    "patch",
+    "post"
+  ],
+  "/jobs/{jobId}": [
+    "get",
+    "patch",
+    "put"
+  ],
+  "/jobs/exportjobs": [
+    "get"
+  ],
+  "/jobs/meta": [
+    "get"
+  ],
+  "/jobs/activities": [
+    "get"
+  ],
+  "/jobs/{jobId}/collaborators": [
+    "post",
+    "delete",
+    "get"
+  ],
+  "/jobs/{jobId}/clones": [
+    "post"
+  ],
+  "/jobs/recommendations": [
+    "get"
+  ],
+  "/jobs/exports": [
+    "get"
+  ],
+  "/jobs/list": [
+    "get"
+  ],
+  "/jobs/facets": [
+    "get"
+  ],
+  "/jobs/workflows": [
+    "post"
+  ],
+  "/jobs/{jobId}/scores": [
+    "post"
+  ],
+  "/jobs/addtojob": [
+    "post"
+  ],
+  "/jobs/setAsHired": [
+    "post"
+  ],
+  "/jobs/matches/{institutionId}": [
+    "get"
+  ],
+  "/jobs/dashboardInfo": [
+    "get"
+  ],
+  "/jobs/{jobId}/reject": [
+    "patch"
+  ],
+  "/jobs/{jobId}/jobvacancies": [
+    "patch"
+  ],
+  "/jobs/sendshortlistemail": [
+    "patch"
+  ],
+  "/jobs/closeAllJobsUnderBatch": [
+    "patch"
+  ],
+  "/jobs/getJobsByBatch/{batchName}": [
+    "get"
+  ],
+  "/jobs/jobTimeOut/create": [
+    "put"
+  ],
+  "/jobs/{jobId}/transferUserJob": [
+    "patch"
+  ],
+  "/profiles/{applicationId}/applications": [
+    "get"
+  ],
+  "/profiles/{profileId}/edit": [
+    "patch"
+  ],
+  "/profiles/{profileId}/education": [
+    "post"
+  ],
+  "/profiles/{profileId}/education/{qualificationId}": [
+    "patch",
+    "delete"
+  ],
+  "/profiles/{profileId}/experience": [
+    "post"
+  ],
+  "/profiles/{profileId}/experience/{experienceId}": [
+    "patch",
+    "delete"
+  ],
+  "/profiles/{profileId}/certification": [
+    "post"
+  ],
+  "/profiles/{profileId}/certification/{certificationId}": [
+    "patch",
+    "delete"
+  ],
+  "/profiles/{profileId}/skill": [
+    "post"
+  ],
+  "/profiles/{profileId}/skill/{personSkillId}": [
+    "patch",
+    "delete"
+  ],
+  "/profiles": [
+    "post",
+    "patch"
+  ],
+  "/profiles/{profileId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/profiles/{profileId}/contacts": [
+    "post",
+    "delete"
+  ],
+  "/profiles/{profileId}/contacts/{personMobId}": [
+    "patch",
+    "delete"
+  ],
+  "/profiles/{profileId}/projects": [
+    "post",
+    "get",
+    "delete"
+  ],
+  "/profiles/{profileId}/projects/{projectId}": [
+    "patch",
+    "get",
+    "delete"
+  ],
+  "/profiles/{profileId}/exports": [
+    "get"
+  ],
+  "/profiles/{profileId}/matches": [
+    "post"
+  ],
+  "/profiles/{profileId}/emails": [
+    "get"
+  ],
+  "/profiles/exports": [
+    "get"
+  ],
+  "/profiles/{profileId}/getInterimPlacementDownload/{appId}/{isApproval?}": [
+    "get"
+  ],
+  "/profiles/downloadAllInterim/{jobId}": [
+    "get"
+  ],
+  "/profiles/{profileId}/getFinalPlacementDownload": [
+    "get"
+  ],
+  "/buckets": [
+    "post",
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/marketplaces": [
+    "get"
+  ],
+  "/Companymarketplace": [
+    "post"
+  ],
+  "/zoom/users": [
+    "post"
+  ],
+  "/zoom/meetings": [
+    "post"
+  ],
+  "/companytype-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/companytype-base/replaceOrCreate": [
+    "post"
+  ],
+  "/companytype-base/upsertWithWhere": [
+    "post"
+  ],
+  "/companytype-base/{id}/exists": [
+    "get"
+  ],
+  "/companytype-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/companytype-base/{id}/replace": [
+    "post"
+  ],
+  "/companytype-base/findOne": [
+    "get"
+  ],
+  "/companytype-base/update": [
+    "post"
+  ],
+  "/companytype-base/count": [
+    "get"
+  ],
+  "/companytype-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentpreferences/{id}/companytype": [
+    "get"
+  ],
+  "/Studentpreferences/{id}/profile": [
+    "get"
+  ],
+  "/Studentpreferences/{id}/jobfunction": [
+    "get"
+  ],
+  "/Studentpreferences": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentpreferences/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentpreferences/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentpreferences/{id}/exists": [
+    "get"
+  ],
+  "/Studentpreferences/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentpreferences/{id}/replace": [
+    "post"
+  ],
+  "/Studentpreferences/findOne": [
+    "get"
+  ],
+  "/Studentpreferences/update": [
+    "post"
+  ],
+  "/Studentpreferences/count": [
+    "get"
+  ],
+  "/Studentpreferences/change-stream": [
+    "post",
+    "get"
+  ],
+  "/studentprofile-base/{id}/profile": [
+    "get"
+  ],
+  "/studentprofile-base/{id}/company": [
+    "get"
+  ],
+  "/studentprofile-base/{id}/chinesegrade": [
+    "get"
+  ],
+  "/studentprofile-base/{id}/hchinesegrade": [
+    "get"
+  ],
+  "/studentprofile-base/{id}/courses": [
+    "get"
+  ],
+  "/studentprofile-base/{id}/faculty": [
+    "get"
+  ],
+  "/studentprofile-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/studentprofile-base/replaceOrCreate": [
+    "post"
+  ],
+  "/studentprofile-base/upsertWithWhere": [
+    "post"
+  ],
+  "/studentprofile-base/{id}/exists": [
+    "get"
+  ],
+  "/studentprofile-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/studentprofile-base/{id}/replace": [
+    "post"
+  ],
+  "/studentprofile-base/findOne": [
+    "get"
+  ],
+  "/studentprofile-base/update": [
+    "post"
+  ],
+  "/studentprofile-base/count": [
+    "get"
+  ],
+  "/studentprofile-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentindustrypreferences/{id}/industry": [
+    "get"
+  ],
+  "/Studentindustrypreferences/{id}/studentprofile": [
+    "get"
+  ],
+  "/Studentindustrypreferences": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentindustrypreferences/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentindustrypreferences/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentindustrypreferences/{id}/exists": [
+    "get"
+  ],
+  "/Studentindustrypreferences/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentindustrypreferences/{id}/replace": [
+    "post"
+  ],
+  "/Studentindustrypreferences/findOne": [
+    "get"
+  ],
+  "/Studentindustrypreferences/update": [
+    "post"
+  ],
+  "/Studentindustrypreferences/count": [
+    "get"
+  ],
+  "/Studentindustrypreferences/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentskillpreferences/{id}/profile": [
+    "get"
+  ],
+  "/Studentskillpreferences/{id}/personskill": [
+    "get"
+  ],
+  "/Studentskillpreferences": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentskillpreferences/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentskillpreferences/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentskillpreferences/{id}/exists": [
+    "get"
+  ],
+  "/Studentskillpreferences/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentskillpreferences/{id}/replace": [
+    "post"
+  ],
+  "/Studentskillpreferences/findOne": [
+    "get"
+  ],
+  "/Studentskillpreferences/update": [
+    "post"
+  ],
+  "/Studentskillpreferences/count": [
+    "get"
+  ],
+  "/Studentskillpreferences/change-stream": [
+    "post",
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/studentprofile": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/language": [
+    "post"
+  ],
+  "/studentprofile/{studentProfileId}/language/{personLangId}": [
+    "patch",
+    "delete"
+  ],
+  "/studentprofile/{studentProfileId}/cityperference": [
+    "post",
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/cityperference/{studentCityId}": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/industryperference": [
+    "post",
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/industryperference/{studIndustryPrefId}": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/studentpreference": [
+    "post",
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/studentpreference/{studentPreferenceId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/studentjobfunction": [
+    "post",
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/studentjobfunction/{studJobFunId}": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/matches": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/studentlearn": [
+    "post",
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/studentlearn/{stuLearnId}": [
+    "delete",
+    "get"
+  ],
+  "/studentprofile/csvexport": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/ctypepreference": [
+    "post"
+  ],
+  "/studentprofile/{studentProfileId}/ctypeperference": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/ctypeperference/{studCtypePrefId}": [
+    "get"
+  ],
+  "/studentprofile/{studentProfileId}/studentOfferApproval": [
+    "patch"
+  ],
+  "/studentprofile/{studentProfileId}/studentIsOpenMarket": [
+    "patch"
+  ],
+  "/skillpreference": [
+    "post"
+  ],
+  "/skillpreference/{profileId}": [
+    "get"
+  ],
+  "/skillpreference/{studentskillId}": [
+    "delete"
+  ],
+  "/studentpreference": [
+    "post",
+    "get"
+  ],
+  "/studentpreference/{studentProfileId}": [
+    "post"
+  ],
+  "/studentpreference/{studentPreferenceId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/studentpreference/{profileId}": [
+    "get"
+  ],
+  "/industrypreference": [
+    "post"
+  ],
+  "/industrypreference/{profileId}": [
+    "get"
+  ],
+  "/industrypreference/{industryPreferenceId}": [
+    "delete"
+  ],
+  "/jobquestionaire": [
+    "post",
+    "get"
+  ],
+  "/jobquestionaire/{jobQuestionId}": [
+    "delete"
+  ],
+  "/Jobquestionaires/{id}/questiontype": [
+    "get"
+  ],
+  "/Jobquestionaires": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobquestionaires/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobquestionaires/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobquestionaires/{id}/exists": [
+    "get"
+  ],
+  "/Jobquestionaires/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobquestionaires/{id}/replace": [
+    "post"
+  ],
+  "/Jobquestionaires/findOne": [
+    "get"
+  ],
+  "/Jobquestionaires/update": [
+    "post"
+  ],
+  "/Jobquestionaires/count": [
+    "get"
+  ],
+  "/Jobquestionaires/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobadditionalinfos/{id}/major": [
+    "get"
+  ],
+  "/Jobadditionalinfos/{id}/job": [
+    "get"
+  ],
+  "/Jobadditionalinfos/{id}/companytype": [
+    "get"
+  ],
+  "/Jobadditionalinfos": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobadditionalinfos/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobadditionalinfos/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobadditionalinfos/{id}/exists": [
+    "get"
+  ],
+  "/Jobadditionalinfos/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobadditionalinfos/{id}/replace": [
+    "post"
+  ],
+  "/Jobadditionalinfos/findOne": [
+    "get"
+  ],
+  "/Jobadditionalinfos/update": [
+    "post"
+  ],
+  "/Jobadditionalinfos/count": [
+    "get"
+  ],
+  "/Jobadditionalinfos/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobquestionmappings/{id}/job": [
+    "get"
+  ],
+  "/Jobquestionmappings": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobquestionmappings/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobquestionmappings/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobquestionmappings/{id}/exists": [
+    "get"
+  ],
+  "/Jobquestionmappings/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobquestionmappings/{id}/replace": [
+    "post"
+  ],
+  "/Jobquestionmappings/findOne": [
+    "get"
+  ],
+  "/Jobquestionmappings/update": [
+    "post"
+  ],
+  "/Jobquestionmappings/count": [
+    "get"
+  ],
+  "/Jobquestionmappings/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobquestionmap": [
+    "post"
+  ],
+  "/jobquestionmap/{jobId}": [
+    "get"
+  ],
+  "/jobquestionmap/{jobQuestionMapId}": [
+    "delete"
+  ],
+  "/jobadditionalinfo": [
+    "post"
+  ],
+  "/jobadditionalinfo/{jobId}": [
+    "get"
+  ],
+  "/jobadditionalinfo/{jobInfoId}": [
+    "delete"
+  ],
+  "/projects/{profileId}/projects": [
+    "post",
+    "put",
+    "get",
+    "delete"
+  ],
+  "/projects/{profileId}/projects/{projectId}": [
+    "get",
+    "delete"
+  ],
+  "/Projects/{id}/profile": [
+    "get"
+  ],
+  "/Projects/{id}/projecttype": [
+    "get"
+  ],
+  "/Projects": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Projects/replaceOrCreate": [
+    "post"
+  ],
+  "/Projects/upsertWithWhere": [
+    "post"
+  ],
+  "/Projects/{id}/exists": [
+    "get"
+  ],
+  "/Projects/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Projects/{id}/replace": [
+    "post"
+  ],
+  "/Projects/findOne": [
+    "get"
+  ],
+  "/Projects/update": [
+    "post"
+  ],
+  "/Projects/count": [
+    "get"
+  ],
+  "/Projects/change-stream": [
+    "post",
+    "get"
+  ],
+  "/workflows": [
+    "get",
+    "post"
+  ],
+  "/workflows/{workflowId}/stages/{appStageId}": [
+    "post",
+    "patch",
+    "delete"
+  ],
+  "/workflows/{workflowId}/clones": [
+    "post"
+  ],
+  "/workflows/{workflowId}/stages/{appStageId}/substages/{userMapId}": [
+    "post"
+  ],
+  "/workflows/{workflowId}": [
+    "patch",
+    "delete"
+  ],
+  "/workflows/indexFeedbacks": [
+    "get"
+  ],
+  "/Timeintervals": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Timeintervals/replaceOrCreate": [
+    "post"
+  ],
+  "/Timeintervals/upsertWithWhere": [
+    "post"
+  ],
+  "/Timeintervals/{id}/exists": [
+    "get"
+  ],
+  "/Timeintervals/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Timeintervals/{id}/replace": [
+    "post"
+  ],
+  "/Timeintervals/findOne": [
+    "get"
+  ],
+  "/Timeintervals/update": [
+    "post"
+  ],
+  "/Timeintervals/count": [
+    "get"
+  ],
+  "/Timeintervals/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Offerrejectreasons/{id}/offerdetails": [
+    "get"
+  ],
+  "/Offerrejectreasons/{id}/rejectreason": [
+    "get"
+  ],
+  "/Offerrejectreasons": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Offerrejectreasons/replaceOrCreate": [
+    "post"
+  ],
+  "/Offerrejectreasons/upsertWithWhere": [
+    "post"
+  ],
+  "/Offerrejectreasons/{id}/exists": [
+    "get"
+  ],
+  "/Offerrejectreasons/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Offerrejectreasons/{id}/replace": [
+    "post"
+  ],
+  "/Offerrejectreasons/findOne": [
+    "get"
+  ],
+  "/Offerrejectreasons/update": [
+    "post"
+  ],
+  "/Offerrejectreasons/count": [
+    "get"
+  ],
+  "/Offerrejectreasons/change-stream": [
+    "post",
+    "get"
+  ],
+  "/rejectreason": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/rejectreason/replaceOrCreate": [
+    "post"
+  ],
+  "/rejectreason/upsertWithWhere": [
+    "post"
+  ],
+  "/rejectreason/{id}/exists": [
+    "get"
+  ],
+  "/rejectreason/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/rejectreason/{id}/replace": [
+    "post"
+  ],
+  "/rejectreason/findOne": [
+    "get"
+  ],
+  "/rejectreason/update": [
+    "post"
+  ],
+  "/rejectreason/count": [
+    "get"
+  ],
+  "/rejectreason/change-stream": [
+    "post",
+    "get"
+  ],
+  "/offers": [
+    "post",
+    "patch",
+    "get"
+  ],
+  "/offers/{offerId}": [
+    "get"
+  ],
+  "/offers/exports": [
+    "get"
+  ],
+  "/offers/{jobId}/offerjob/{appId}": [
+    "get"
+  ],
+  "/offers/{offerId}/updateOfferApproval": [
+    "patch"
+  ],
+  "/events": [
+    "get"
+  ],
+  "/events/{eventId}": [
+    "get"
+  ],
+  "/events/create": [
+    "post"
+  ],
+  "/events/student-interviews": [
+    "get"
+  ],
+  "/events/institution-slots": [
+    "post",
+    "get"
+  ],
+  "/events/institution-slots/{slotId}": [
+    "delete",
+    "patch"
+  ],
+  "/resumes": [
+    "post"
+  ],
+  "/resumes/parse": [
+    "post"
+  ],
+  "/resumes/basic": [
+    "post"
+  ],
+  "/resumes/detail": [
+    "post"
+  ],
+  "/resumes/task/{taskId}": [
+    "get"
+  ],
+  "/companies": [
+    "post",
+    "get"
+  ],
+  "/companies/{companyId}": [
+    "patch",
+    "get",
+    "delete"
+  ],
+  "/companies/indexCompanies": [
+    "get"
+  ],
+  "/companies/companieslist": [
+    "get"
+  ],
+  "/companies/institutionslist": [
+    "get"
+  ],
+  "/companies/companyfacets": [
+    "get"
+  ],
+  "/companies/institutionfacets": [
+    "get"
+  ],
+  "/companies/studentslist": [
+    "get"
+  ],
+  "/companies/downloadAttendance": [
+    "get"
+  ],
+  "/companies/downloadStudents": [
+    "get"
+  ],
+  "/companies/downloadStudentsTemplate": [
+    "get"
+  ],
+  "/companies/companyUsersList": [
+    "get"
+  ],
+  "/companies/usersList": [
+    "get"
+  ],
+  "/companies/usersList/active": [
+    "get"
+  ],
+  "/companies/users": [
+    "post"
+  ],
+  "/companies/indexStudents": [
+    "get"
+  ],
+  "/companies/browseStudents": [
+    "get"
+  ],
+  "/companies/studentfacets": [
+    "get"
+  ],
+  "/companies/validate": [
+    "post"
+  ],
+  "/companies/exportcompanies": [
+    "get"
+  ],
+  "/companies/downloadStudentLOInfo": [
+    "get"
+  ],
+  "/companies/sendOfferConfirmationMail": [
+    "patch"
+  ],
+  "/companies/browseEmployees": [
+    "get"
+  ],
+  "/companies/employee/{employeeId}": [
+    "get"
+  ],
+  "/companies/employee/jobs/{employeeId}": [
+    "get"
+  ],
+  "/companies/sendConfirmationMailToEmployee": [
+    "patch"
+  ],
+  "/companies/employeeEmailConfirmation": [
+    "patch"
+  ],
+  "/companies/getEmailConfirmationInfo/{userId}": [
+    "get"
+  ],
+  "/companies/editCompanyInterest/{companyId}": [
+    "patch"
+  ],
+  "/companies/uen/verify/{uen}": [
+    "get"
+  ],
+  "/schools": [
+    "get"
+  ],
+  "/certificates": [
+    "get"
+  ],
+  "/organizations": [
+    "get"
+  ],
+  "/qualifications": [
+    "get"
+  ],
+  "/companymaps": [
+    "post",
+    "delete",
+    "get",
+    "patch"
+  ],
+  "/companymaps/switchCompany": [
+    "get"
+  ],
+  "/Analyticsbackups": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Analyticsbackups/replaceOrCreate": [
+    "post"
+  ],
+  "/Analyticsbackups/upsertWithWhere": [
+    "post"
+  ],
+  "/Analyticsbackups/{id}/exists": [
+    "get"
+  ],
+  "/Analyticsbackups/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Analyticsbackups/{id}/replace": [
+    "post"
+  ],
+  "/Analyticsbackups/findOne": [
+    "get"
+  ],
+  "/Analyticsbackups/update": [
+    "post"
+  ],
+  "/Analyticsbackups/count": [
+    "get"
+  ],
+  "/Analyticsbackups/change-stream": [
+    "post",
+    "get"
+  ],
+  "/companyusermap": [
+    "post",
+    "delete"
+  ],
+  "/writtenassessment": [
+    "post",
+    "patch",
+    "get"
+  ],
+  "/writtenassessment/{assessmentId}": [
+    "get"
+  ],
+  "/writtenassessment/invites": [
+    "post"
+  ],
+  "/countries": [
+    "post",
+    "get"
+  ],
+  "/countries/{countryId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/analytics/timeline": [
+    "get"
+  ],
+  "/analytics/trends": [
+    "get"
+  ],
+  "/analytics/activityReports": [
+    "get"
+  ],
+  "/analytics/logs": [
+    "get"
+  ],
+  "/search": [
+    "get"
+  ],
+  "/writtenassessmentresponse": [
+    "post"
+  ],
+  "/writtenassessmentresponse/{answerId}": [
+    "get",
+    "delete"
+  ],
+  "/questionbank": [
+    "post",
+    "get"
+  ],
+  "/questionbank/{questionbankId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/jobnames": [
+    "post",
+    "get"
+  ],
+  "/jobnames/{nameId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/skills": [
+    "post",
+    "get"
+  ],
+  "/skills/{skillId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/userinviteemailmap": [
+    "delete",
+    "get",
+    "post"
+  ],
+  "/userinviteemailmap/invite": [
+    "post"
+  ],
+  "/userinviteemailmap/{jobcompanyId}": [
+    "get"
+  ],
+  "/offices": [
+    "post",
+    "get"
+  ],
+  "/offices/{officeId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/usersubscriptions": [
+    "post",
+    "get"
+  ],
+  "/usersubscriptions/bulk": [
+    "post",
+    "patch",
+    "delete"
+  ],
+  "/usersubscriptions/{subscriptionId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/videointerviews/{interviewId}/status": [
+    "put"
+  ],
+  "/videointerviews/{videoInterviewId}/answers": [
+    "get"
+  ],
+  "/videointerviews/{videoInterviewId}/ratings": [
+    "get",
+    "post"
+  ],
+  "/videointerviews/{interviewId}": [
+    "get"
+  ],
+  "/videointerviews": [
+    "get",
+    "post"
+  ],
+  "/videointerviews/{interviewId}/urls": [
+    "get"
+  ],
+  "/videointerviews/invites": [
+    "post"
+  ],
+  "/videointerviewresponses": [
+    "post"
+  ],
+  "/videointerviewresponses/{questionId}": [
+    "get"
+  ],
+  "/videointerviewresponses/{videointerviewResponseId}": [
+    "patch"
+  ],
+  "/videointerviewresponses/updateRetakes": [
+    "patch"
+  ],
+  "/references": [
+    "post",
+    "get"
+  ],
+  "/references/invites": [
+    "post"
+  ],
+  "/references/{refId}": [
+    "get"
+  ],
+  "/references/invites/{id}": [
+    "get"
+  ],
+  "/skillsrecommend": [
+    "get"
+  ],
+  "/userinfos/reset-password": [
+    "post"
+  ],
+  "/userinfos/update-password": [
+    "post"
+  ],
+  "/userinfos": [
+    "get",
+    "post"
+  ],
+  "/userinfos/{userId}": [
+    "delete",
+    "patch",
+    "get"
+  ],
+  "/userinfos/{userId}/invites/{sharinghash}": [
+    "get"
+  ],
+  "/userinfos/usage": [
+    "get"
+  ],
+  "/userinfos/candidates/usage": [
+    "get"
+  ],
+  "/userinfos/{userId}/report": [
+    "get"
+  ],
+  "/userinfos/{userId}/edit": [
+    "patch"
+  ],
+  "/userinfos/{userId}/activate": [
+    "post"
+  ],
+  "/userinfos/logininfo": [
+    "post"
+  ],
+  "/userinfos/logininfo/{loginInfoId}": [
+    "patch"
+  ],
+  "/userinfos/{email}/getlogininfo": [
+    "get"
+  ],
+  "/userinfos/{userId}/employersJobInfo": [
+    "get"
+  ],
+  "/userinfos/{currentUserId}/transferJobs": [
+    "patch"
+  ],
+  "/userinfos/{userId}/addRemoveCompanyLeader": [
+    "patch"
+  ],
+  "/userinfos/{userId}/enableDisableUserJobsOwnership": [
+    "patch"
+  ],
+  "/userinfos/{userId}/updateUserCompanyApproval": [
+    "patch"
+  ],
+  "/userinfos/cp/sp/auth": [
+    "post"
+  ],
+  "/userinfos/validate/prm": [
+    "post"
+  ],
+  "/Hobbytypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Hobbytypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Hobbytypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Hobbytypes/{id}/exists": [
+    "get"
+  ],
+  "/Hobbytypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Hobbytypes/{id}/replace": [
+    "post"
+  ],
+  "/Hobbytypes/findOne": [
+    "get"
+  ],
+  "/Hobbytypes/update": [
+    "post"
+  ],
+  "/Hobbytypes/count": [
+    "get"
+  ],
+  "/Hobbytypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Playgrounds": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Playgrounds/replaceOrCreate": [
+    "post"
+  ],
+  "/Playgrounds/upsertWithWhere": [
+    "post"
+  ],
+  "/Playgrounds/{id}/exists": [
+    "get"
+  ],
+  "/Playgrounds/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Playgrounds/{id}/replace": [
+    "post"
+  ],
+  "/Playgrounds/findOne": [
+    "get"
+  ],
+  "/Playgrounds/update": [
+    "post"
+  ],
+  "/Playgrounds/count": [
+    "get"
+  ],
+  "/Playgrounds/change-stream": [
+    "post",
+    "get"
+  ],
+  "/hobbies": [
+    "post",
+    "get"
+  ],
+  "/hobbies/{hobbyId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/personhobbies": [
+    "post",
+    "get"
+  ],
+  "/personhobbies/{personHobbyId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/personactivities": [
+    "post",
+    "get"
+  ],
+  "/personactivities/{personActId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/activities": [
+    "post",
+    "get"
+  ],
+  "/activities/{activityId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/jobmappings": [
+    "post",
+    "patch",
+    "delete"
+  ],
+  "/candidaterecords": [
+    "delete"
+  ],
+  "/candidaterecords/{jobId}": [
+    "get"
+  ],
+  "/emailtemplates/{templateId}": [
+    "post",
+    "patch",
+    "get",
+    "delete"
+  ],
+  "/emailtemplates": [
+    "post",
+    "get"
+  ],
+  "/emailtemplates/send-email/{templateId}": [
+    "post"
+  ],
+  "/xpa": [
+    "post"
+  ],
+  "/Jobapproves-base/{id}/job": [
+    "get"
+  ],
+  "/Jobapproves-base/{id}/courses": [
+    "get"
+  ],
+  "/Jobapproves-base/{id}/faculty": [
+    "get"
+  ],
+  "/Jobapproves-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobapproves-base/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobapproves-base/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobapproves-base/{id}/exists": [
+    "get"
+  ],
+  "/Jobapproves-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobapproves-base/{id}/replace": [
+    "post"
+  ],
+  "/Jobapproves-base/findOne": [
+    "get"
+  ],
+  "/Jobapproves-base/update": [
+    "post"
+  ],
+  "/Jobapproves-base/count": [
+    "get"
+  ],
+  "/Jobapproves-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workflowdocumenttypes-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowdocumenttypes-base/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowdocumenttypes-base/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowdocumenttypes-base/{id}/exists": [
+    "get"
+  ],
+  "/Workflowdocumenttypes-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowdocumenttypes-base/{id}/replace": [
+    "post"
+  ],
+  "/Workflowdocumenttypes-base/findOne": [
+    "get"
+  ],
+  "/Workflowdocumenttypes-base/update": [
+    "post"
+  ],
+  "/Workflowdocumenttypes-base/count": [
+    "get"
+  ],
+  "/Workflowdocumenttypes-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/workflowdocuments-base/{id}/workflowappstageusersubstagemap": [
+    "get"
+  ],
+  "/workflowdocuments-base/{id}/workflowdocumenttypes": [
+    "get"
+  ],
+  "/workflowdocuments-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/workflowdocuments-base/replaceOrCreate": [
+    "post"
+  ],
+  "/workflowdocuments-base/upsertWithWhere": [
+    "post"
+  ],
+  "/workflowdocuments-base/{id}/exists": [
+    "get"
+  ],
+  "/workflowdocuments-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/workflowdocuments-base/{id}/replace": [
+    "post"
+  ],
+  "/workflowdocuments-base/findOne": [
+    "get"
+  ],
+  "/workflowdocuments-base/update": [
+    "post"
+  ],
+  "/workflowdocuments-base/count": [
+    "get"
+  ],
+  "/workflowdocuments-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/workflowdocuments": [
+    "post"
+  ],
+  "/workflowdocuments/{workflowDocumentId}": [
+    "patch",
+    "get",
+    "delete"
+  ],
+  "/workflowdocumenttypes": [
+    "post",
+    "get"
+  ],
+  "/workflowdocumenttypes/{workflowDocumentTypeId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/workflowsubstage": [
+    "get"
+  ],
+  "/applicationnotes-base/{id}/application": [
+    "get"
+  ],
+  "/applicationnotes-base/{id}/userinfo": [
+    "get"
+  ],
+  "/applicationnotes-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/applicationnotes-base/replaceOrCreate": [
+    "post"
+  ],
+  "/applicationnotes-base/upsertWithWhere": [
+    "post"
+  ],
+  "/applicationnotes-base/{id}/exists": [
+    "get"
+  ],
+  "/applicationnotes-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/applicationnotes-base/{id}/replace": [
+    "post"
+  ],
+  "/applicationnotes-base/findOne": [
+    "get"
+  ],
+  "/applicationnotes-base/update": [
+    "post"
+  ],
+  "/applicationnotes-base/count": [
+    "get"
+  ],
+  "/applicationnotes-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/notes": [
+    "post",
+    "get"
+  ],
+  "/notes/{noteId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/offer-documents-base/{id}/offerdetails": [
+    "get"
+  ],
+  "/offer-documents-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/offer-documents-base/replaceOrCreate": [
+    "post"
+  ],
+  "/offer-documents-base/upsertWithWhere": [
+    "post"
+  ],
+  "/offer-documents-base/{id}/exists": [
+    "get"
+  ],
+  "/offer-documents-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/offer-documents-base/{id}/replace": [
+    "post"
+  ],
+  "/offer-documents-base/findOne": [
+    "get"
+  ],
+  "/offer-documents-base/update": [
+    "post"
+  ],
+  "/offer-documents-base/count": [
+    "get"
+  ],
+  "/offer-documents-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/offerdocuments": [
+    "post"
+  ],
+  "/offerdocuments/{offerDocumentId}": [
+    "patch",
+    "get",
+    "delete"
+  ],
+  "/offerdocuments/{docId}/doc": [
+    "get"
+  ],
+  "/profileviews-base/{id}/userinfo": [
+    "get"
+  ],
+  "/profileviews-base/{id}/recruiterUserId": [
+    "get"
+  ],
+  "/profileviews-base/{id}/company": [
+    "get"
+  ],
+  "/profileviews-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/profileviews-base/replaceOrCreate": [
+    "post"
+  ],
+  "/profileviews-base/upsertWithWhere": [
+    "post"
+  ],
+  "/profileviews-base/{id}/exists": [
+    "get"
+  ],
+  "/profileviews-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/profileviews-base/{id}/replace": [
+    "post"
+  ],
+  "/profileviews-base/findOne": [
+    "get"
+  ],
+  "/profileviews-base/update": [
+    "post"
+  ],
+  "/profileviews-base/count": [
+    "get"
+  ],
+  "/profileviews-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/profileviews": [
+    "post",
+    "get"
+  ],
+  "/profileviews/{profileViewId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/jobapprovers": [
+    "patch",
+    "get"
+  ],
+  "/jobapprovers/approvedVacancies": [
+    "get"
+  ],
+  "/jobapprovers/update": [
+    "patch"
+  ],
+  "/xcontainers": [
+    "post"
+  ],
+  "/Continents": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Continents/replaceOrCreate": [
+    "post"
+  ],
+  "/Continents/upsertWithWhere": [
+    "post"
+  ],
+  "/Continents/{id}/exists": [
+    "get"
+  ],
+  "/Continents/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Continents/{id}/replace": [
+    "post"
+  ],
+  "/Continents/findOne": [
+    "get"
+  ],
+  "/Continents/update": [
+    "post"
+  ],
+  "/Continents/count": [
+    "get"
+  ],
+  "/Continents/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Companytypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Companytypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Companytypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Companytypes/{id}/exists": [
+    "get"
+  ],
+  "/Companytypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Companytypes/{id}/replace": [
+    "post"
+  ],
+  "/Companytypes/findOne": [
+    "get"
+  ],
+  "/Companytypes/update": [
+    "post"
+  ],
+  "/Companytypes/count": [
+    "get"
+  ],
+  "/Companytypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Languagetypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Languagetypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Languagetypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Languagetypes/{id}/exists": [
+    "get"
+  ],
+  "/Languagetypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Languagetypes/{id}/replace": [
+    "post"
+  ],
+  "/Languagetypes/findOne": [
+    "get"
+  ],
+  "/Languagetypes/update": [
+    "post"
+  ],
+  "/Languagetypes/count": [
+    "get"
+  ],
+  "/Languagetypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Grades": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Grades/replaceOrCreate": [
+    "post"
+  ],
+  "/Grades/upsertWithWhere": [
+    "post"
+  ],
+  "/Grades/{id}/exists": [
+    "get"
+  ],
+  "/Grades/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Grades/{id}/replace": [
+    "post"
+  ],
+  "/Grades/findOne": [
+    "get"
+  ],
+  "/Grades/update": [
+    "post"
+  ],
+  "/Grades/count": [
+    "get"
+  ],
+  "/Grades/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Projecttypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Projecttypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Projecttypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Projecttypes/{id}/exists": [
+    "get"
+  ],
+  "/Projecttypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Projecttypes/{id}/replace": [
+    "post"
+  ],
+  "/Projecttypes/findOne": [
+    "get"
+  ],
+  "/Projecttypes/update": [
+    "post"
+  ],
+  "/Projecttypes/count": [
+    "get"
+  ],
+  "/Projecttypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Chinesegrades/{id}/grade": [
+    "get"
+  ],
+  "/Chinesegrades": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Chinesegrades/replaceOrCreate": [
+    "post"
+  ],
+  "/Chinesegrades/upsertWithWhere": [
+    "post"
+  ],
+  "/Chinesegrades/{id}/exists": [
+    "get"
+  ],
+  "/Chinesegrades/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Chinesegrades/{id}/replace": [
+    "post"
+  ],
+  "/Chinesegrades/findOne": [
+    "get"
+  ],
+  "/Chinesegrades/update": [
+    "post"
+  ],
+  "/Chinesegrades/count": [
+    "get"
+  ],
+  "/Chinesegrades/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Hchinesegrades/{id}/grade": [
+    "get"
+  ],
+  "/Hchinesegrades": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Hchinesegrades/replaceOrCreate": [
+    "post"
+  ],
+  "/Hchinesegrades/upsertWithWhere": [
+    "post"
+  ],
+  "/Hchinesegrades/{id}/exists": [
+    "get"
+  ],
+  "/Hchinesegrades/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Hchinesegrades/{id}/replace": [
+    "post"
+  ],
+  "/Hchinesegrades/findOne": [
+    "get"
+  ],
+  "/Hchinesegrades/update": [
+    "post"
+  ],
+  "/Hchinesegrades/count": [
+    "get"
+  ],
+  "/Hchinesegrades/change-stream": [
+    "post",
+    "get"
+  ],
+  "/courses-base/{id}/company": [
+    "get"
+  ],
+  "/courses-base/{id}/faculty": [
+    "get"
+  ],
+  "/courses-base/{id}/batchcourses/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/courses-base/{id}/batchcourses": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/courses-base/{id}/batchcourses/count": [
+    "get"
+  ],
+  "/courses-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/courses-base/replaceOrCreate": [
+    "post"
+  ],
+  "/courses-base/upsertWithWhere": [
+    "post"
+  ],
+  "/courses-base/{id}/exists": [
+    "get"
+  ],
+  "/courses-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/courses-base/{id}/replace": [
+    "post"
+  ],
+  "/courses-base/findOne": [
+    "get"
+  ],
+  "/courses-base/update": [
+    "post"
+  ],
+  "/courses-base/count": [
+    "get"
+  ],
+  "/courses-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/faculty-base/{id}/company": [
+    "get"
+  ],
+  "/faculty-base/{id}/courses/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/faculty-base/{id}/courses": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/faculty-base/{id}/courses/count": [
+    "get"
+  ],
+  "/faculty-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/faculty-base/replaceOrCreate": [
+    "post"
+  ],
+  "/faculty-base/upsertWithWhere": [
+    "post"
+  ],
+  "/faculty-base/{id}/exists": [
+    "get"
+  ],
+  "/faculty-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/faculty-base/{id}/replace": [
+    "post"
+  ],
+  "/faculty-base/findOne": [
+    "get"
+  ],
+  "/faculty-base/update": [
+    "post"
+  ],
+  "/faculty-base/count": [
+    "get"
+  ],
+  "/faculty-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobindustries/{id}/job": [
+    "get"
+  ],
+  "/Jobindustries/{id}/industry": [
+    "get"
+  ],
+  "/Jobindustries": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobindustries/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobindustries/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobindustries/{id}/exists": [
+    "get"
+  ],
+  "/Jobindustries/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobindustries/{id}/replace": [
+    "post"
+  ],
+  "/Jobindustries/findOne": [
+    "get"
+  ],
+  "/Jobindustries/update": [
+    "post"
+  ],
+  "/Jobindustries/count": [
+    "get"
+  ],
+  "/Jobindustries/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobfunctionmaps/{id}/job": [
+    "get"
+  ],
+  "/Jobfunctionmaps/{id}/jobfunction": [
+    "get"
+  ],
+  "/Jobfunctionmaps": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobfunctionmaps/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobfunctionmaps/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobfunctionmaps/{id}/exists": [
+    "get"
+  ],
+  "/Jobfunctionmaps/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobfunctionmaps/{id}/replace": [
+    "post"
+  ],
+  "/Jobfunctionmaps/findOne": [
+    "get"
+  ],
+  "/Jobfunctionmaps/update": [
+    "post"
+  ],
+  "/Jobfunctionmaps/count": [
+    "get"
+  ],
+  "/Jobfunctionmaps/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Schoollocationmaps/{id}/company": [
+    "get"
+  ],
+  "/Schoollocationmaps/{id}/location": [
+    "get"
+  ],
+  "/Schoollocationmaps": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Schoollocationmaps/replaceOrCreate": [
+    "post"
+  ],
+  "/Schoollocationmaps/upsertWithWhere": [
+    "post"
+  ],
+  "/Schoollocationmaps/{id}/exists": [
+    "get"
+  ],
+  "/Schoollocationmaps/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Schoollocationmaps/{id}/replace": [
+    "post"
+  ],
+  "/Schoollocationmaps/findOne": [
+    "get"
+  ],
+  "/Schoollocationmaps/update": [
+    "post"
+  ],
+  "/Schoollocationmaps/count": [
+    "get"
+  ],
+  "/Schoollocationmaps/change-stream": [
+    "post",
+    "get"
+  ],
+  "/scores-base/{id}/studentprofile": [
+    "get"
+  ],
+  "/scores-base/{id}/job": [
+    "get"
+  ],
+  "/scores-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/scores-base/replaceOrCreate": [
+    "post"
+  ],
+  "/scores-base/upsertWithWhere": [
+    "post"
+  ],
+  "/scores-base/{id}/exists": [
+    "get"
+  ],
+  "/scores-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/scores-base/{id}/replace": [
+    "post"
+  ],
+  "/scores-base/findOne": [
+    "get"
+  ],
+  "/scores-base/update": [
+    "post"
+  ],
+  "/scores-base/count": [
+    "get"
+  ],
+  "/scores-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/citypreferences-base/{id}/studentprofile": [
+    "get"
+  ],
+  "/citypreferences-base/{id}/cities": [
+    "get"
+  ],
+  "/citypreferences-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/citypreferences-base/replaceOrCreate": [
+    "post"
+  ],
+  "/citypreferences-base/upsertWithWhere": [
+    "post"
+  ],
+  "/citypreferences-base/{id}/exists": [
+    "get"
+  ],
+  "/citypreferences-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/citypreferences-base/{id}/replace": [
+    "post"
+  ],
+  "/citypreferences-base/findOne": [
+    "get"
+  ],
+  "/citypreferences-base/update": [
+    "post"
+  ],
+  "/citypreferences-base/count": [
+    "get"
+  ],
+  "/citypreferences-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentchinesegrades/{id}/studentprofile": [
+    "get"
+  ],
+  "/Studentchinesegrades": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentchinesegrades/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentchinesegrades/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentchinesegrades/{id}/exists": [
+    "get"
+  ],
+  "/Studentchinesegrades/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentchinesegrades/{id}/replace": [
+    "post"
+  ],
+  "/Studentchinesegrades/findOne": [
+    "get"
+  ],
+  "/Studentchinesegrades/update": [
+    "post"
+  ],
+  "/Studentchinesegrades/count": [
+    "get"
+  ],
+  "/Studentchinesegrades/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentlearns/{id}/studentprofile": [
+    "get"
+  ],
+  "/Studentlearns/{id}/skill": [
+    "get"
+  ],
+  "/Studentlearns": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentlearns/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentlearns/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentlearns/{id}/exists": [
+    "get"
+  ],
+  "/Studentlearns/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentlearns/{id}/replace": [
+    "post"
+  ],
+  "/Studentlearns/findOne": [
+    "get"
+  ],
+  "/Studentlearns/update": [
+    "post"
+  ],
+  "/Studentlearns/count": [
+    "get"
+  ],
+  "/Studentlearns/change-stream": [
+    "post",
+    "get"
+  ],
+  "/personlanguage-base/{id}/studentprofile": [
+    "get"
+  ],
+  "/personlanguage-base/{id}/language": [
+    "get"
+  ],
+  "/personlanguage-base/{id}/languagetype": [
+    "get"
+  ],
+  "/personlanguage-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/personlanguage-base/replaceOrCreate": [
+    "post"
+  ],
+  "/personlanguage-base/upsertWithWhere": [
+    "post"
+  ],
+  "/personlanguage-base/{id}/exists": [
+    "get"
+  ],
+  "/personlanguage-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/personlanguage-base/{id}/replace": [
+    "post"
+  ],
+  "/personlanguage-base/findOne": [
+    "get"
+  ],
+  "/personlanguage-base/update": [
+    "post"
+  ],
+  "/personlanguage-base/count": [
+    "get"
+  ],
+  "/personlanguage-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentjobfunctions/{id}/studentprofile": [
+    "get"
+  ],
+  "/Studentjobfunctions/{id}/jobfunction": [
+    "get"
+  ],
+  "/Studentjobfunctions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentjobfunctions/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentjobfunctions/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentjobfunctions/{id}/exists": [
+    "get"
+  ],
+  "/Studentjobfunctions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentjobfunctions/{id}/replace": [
+    "post"
+  ],
+  "/Studentjobfunctions/findOne": [
+    "get"
+  ],
+  "/Studentjobfunctions/update": [
+    "post"
+  ],
+  "/Studentjobfunctions/count": [
+    "get"
+  ],
+  "/Studentjobfunctions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentccas/{id}/studentprofile": [
+    "get"
+  ],
+  "/Studentccas": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentccas/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentccas/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentccas/{id}/exists": [
+    "get"
+  ],
+  "/Studentccas/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentccas/{id}/replace": [
+    "post"
+  ],
+  "/Studentccas/findOne": [
+    "get"
+  ],
+  "/Studentccas/update": [
+    "post"
+  ],
+  "/Studentccas/count": [
+    "get"
+  ],
+  "/Studentccas/change-stream": [
+    "post",
+    "get"
+  ],
+  "/citypreferences/{studentProfileId}": [
+    "post"
+  ],
+  "/citypreferences/{studentCityId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/citypreferences": [
+    "get"
+  ],
+  "/locations": [
+    "get"
+  ],
+  "/jobquestionbank-base/{id}/company": [
+    "get"
+  ],
+  "/jobquestionbank-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/jobquestionbank-base/replaceOrCreate": [
+    "post"
+  ],
+  "/jobquestionbank-base/upsertWithWhere": [
+    "post"
+  ],
+  "/jobquestionbank-base/{id}/exists": [
+    "get"
+  ],
+  "/jobquestionbank-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/jobquestionbank-base/{id}/replace": [
+    "post"
+  ],
+  "/jobquestionbank-base/findOne": [
+    "get"
+  ],
+  "/jobquestionbank-base/update": [
+    "post"
+  ],
+  "/jobquestionbank-base/count": [
+    "get"
+  ],
+  "/jobquestionbank-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobquestion-base/{id}/job": [
+    "get"
+  ],
+  "/jobquestion-base/{id}/jobquestionbank": [
+    "get"
+  ],
+  "/jobquestion-base/{id}/jobquestiontype": [
+    "get"
+  ],
+  "/jobquestion-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/jobquestion-base/replaceOrCreate": [
+    "post"
+  ],
+  "/jobquestion-base/upsertWithWhere": [
+    "post"
+  ],
+  "/jobquestion-base/{id}/exists": [
+    "get"
+  ],
+  "/jobquestion-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/jobquestion-base/{id}/replace": [
+    "post"
+  ],
+  "/jobquestion-base/findOne": [
+    "get"
+  ],
+  "/jobquestion-base/update": [
+    "post"
+  ],
+  "/jobquestion-base/count": [
+    "get"
+  ],
+  "/jobquestion-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobquestiontypes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobquestiontypes/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobquestiontypes/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobquestiontypes/{id}/exists": [
+    "get"
+  ],
+  "/Jobquestiontypes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobquestiontypes/{id}/replace": [
+    "post"
+  ],
+  "/Jobquestiontypes/findOne": [
+    "get"
+  ],
+  "/Jobquestiontypes/update": [
+    "post"
+  ],
+  "/Jobquestiontypes/count": [
+    "get"
+  ],
+  "/Jobquestiontypes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Jobpreferences/{id}/job": [
+    "get"
+  ],
+  "/Jobpreferences": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobpreferences/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobpreferences/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobpreferences/{id}/exists": [
+    "get"
+  ],
+  "/Jobpreferences/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobpreferences/{id}/replace": [
+    "post"
+  ],
+  "/Jobpreferences/findOne": [
+    "get"
+  ],
+  "/Jobpreferences/update": [
+    "post"
+  ],
+  "/Jobpreferences/count": [
+    "get"
+  ],
+  "/Jobpreferences/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobquestionbank": [
+    "post",
+    "get"
+  ],
+  "/jobquestionbank/{jobQuestionBankId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/Joblanguages/{id}/languagetype": [
+    "get"
+  ],
+  "/Joblanguages/{id}/language": [
+    "get"
+  ],
+  "/Joblanguages/{id}/job": [
+    "get"
+  ],
+  "/Joblanguages": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Joblanguages/replaceOrCreate": [
+    "post"
+  ],
+  "/Joblanguages/upsertWithWhere": [
+    "post"
+  ],
+  "/Joblanguages/{id}/exists": [
+    "get"
+  ],
+  "/Joblanguages/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Joblanguages/{id}/replace": [
+    "post"
+  ],
+  "/Joblanguages/findOne": [
+    "get"
+  ],
+  "/Joblanguages/update": [
+    "post"
+  ],
+  "/Joblanguages/count": [
+    "get"
+  ],
+  "/Joblanguages/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Otps/{id}/userinfo": [
+    "get"
+  ],
+  "/Otps": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Otps/replaceOrCreate": [
+    "post"
+  ],
+  "/Otps/upsertWithWhere": [
+    "post"
+  ],
+  "/Otps/{id}/exists": [
+    "get"
+  ],
+  "/Otps/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Otps/{id}/replace": [
+    "post"
+  ],
+  "/Otps/findOne": [
+    "get"
+  ],
+  "/Otps/update": [
+    "post"
+  ],
+  "/Otps/count": [
+    "get"
+  ],
+  "/Otps/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentcitymaps/{id}/studentprofile": [
+    "get"
+  ],
+  "/Studentcitymaps": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentcitymaps/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentcitymaps/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentcitymaps/{id}/exists": [
+    "get"
+  ],
+  "/Studentcitymaps/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentcitymaps/{id}/replace": [
+    "post"
+  ],
+  "/Studentcitymaps/findOne": [
+    "get"
+  ],
+  "/Studentcitymaps/update": [
+    "post"
+  ],
+  "/Studentcitymaps/count": [
+    "get"
+  ],
+  "/Studentcitymaps/change-stream": [
+    "post",
+    "get"
+  ],
+  "/faculties": [
+    "post",
+    "get"
+  ],
+  "/faculties/{facultyId}": [
+    "patch",
+    "delete"
+  ],
+  "/courses": [
+    "post",
+    "get"
+  ],
+  "/courses/{courseId}": [
+    "put",
+    "delete"
+  ],
+  "/courses/status/{courseId}": [
+    "patch"
+  ],
+  "/cities-base/{id}/country": [
+    "get"
+  ],
+  "/cities-base": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/cities-base/replaceOrCreate": [
+    "post"
+  ],
+  "/cities-base/upsertWithWhere": [
+    "post"
+  ],
+  "/cities-base/{id}/exists": [
+    "get"
+  ],
+  "/cities-base/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/cities-base/{id}/replace": [
+    "post"
+  ],
+  "/cities-base/findOne": [
+    "get"
+  ],
+  "/cities-base/update": [
+    "post"
+  ],
+  "/cities-base/count": [
+    "get"
+  ],
+  "/cities-base/change-stream": [
+    "post",
+    "get"
+  ],
+  "/cities": [
+    "post",
+    "get"
+  ],
+  "/cities/{cityId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/reports": [
+    "get"
+  ],
+  "/reports/download": [
+    "get"
+  ],
+  "/reports/students": [
+    "get"
+  ],
+  "/reports/downloadReport": [
+    "get"
+  ],
+  "/scores/jobmatches/{scoringStudentId}": [
+    "patch"
+  ],
+  "/languages": [
+    "post",
+    "get"
+  ],
+  "/languages/{languageId}": [
+    "patch",
+    "delete",
+    "get"
+  ],
+  "/Institutionslots": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Institutionslots/replaceOrCreate": [
+    "post"
+  ],
+  "/Institutionslots/upsertWithWhere": [
+    "post"
+  ],
+  "/Institutionslots/{id}/exists": [
+    "get"
+  ],
+  "/Institutionslots/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Institutionslots/{id}/replace": [
+    "post"
+  ],
+  "/Institutionslots/findOne": [
+    "get"
+  ],
+  "/Institutionslots/update": [
+    "post"
+  ],
+  "/Institutionslots/count": [
+    "get"
+  ],
+  "/Institutionslots/change-stream": [
+    "post",
+    "get"
+  ],
+  "/persondocs/{personDocId}": [
+    "delete"
+  ],
+  "/persondocs/signedOffer": [
+    "post"
+  ],
+  "/applicationemails/sent": [
+    "get"
+  ],
+  "/applicationemails/bySendGroupId/{sendingGroupId}": [
+    "get"
+  ],
+  "/applicationemails/{profileId}": [
+    "get"
+  ],
+  "/Jobcoursemaps/{id}/job": [
+    "get"
+  ],
+  "/Jobcoursemaps/{id}/faculty": [
+    "get"
+  ],
+  "/Jobcoursemaps/{id}/courses": [
+    "get"
+  ],
+  "/Jobcoursemaps": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Jobcoursemaps/replaceOrCreate": [
+    "post"
+  ],
+  "/Jobcoursemaps/upsertWithWhere": [
+    "post"
+  ],
+  "/Jobcoursemaps/{id}/exists": [
+    "get"
+  ],
+  "/Jobcoursemaps/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Jobcoursemaps/{id}/replace": [
+    "post"
+  ],
+  "/Jobcoursemaps/findOne": [
+    "get"
+  ],
+  "/Jobcoursemaps/update": [
+    "post"
+  ],
+  "/Jobcoursemaps/count": [
+    "get"
+  ],
+  "/Jobcoursemaps/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Studentctypepreferences/{id}/studentprofile": [
+    "get"
+  ],
+  "/Studentctypepreferences/{id}/companytype": [
+    "get"
+  ],
+  "/Studentctypepreferences": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Studentctypepreferences/replaceOrCreate": [
+    "post"
+  ],
+  "/Studentctypepreferences/upsertWithWhere": [
+    "post"
+  ],
+  "/Studentctypepreferences/{id}/exists": [
+    "get"
+  ],
+  "/Studentctypepreferences/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Studentctypepreferences/{id}/replace": [
+    "post"
+  ],
+  "/Studentctypepreferences/findOne": [
+    "get"
+  ],
+  "/Studentctypepreferences/update": [
+    "post"
+  ],
+  "/Studentctypepreferences/count": [
+    "get"
+  ],
+  "/Studentctypepreferences/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Companyadditionalinfos/{id}/company": [
+    "get"
+  ],
+  "/Companyadditionalinfos/{id}/companytype": [
+    "get"
+  ],
+  "/Companyadditionalinfos": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Companyadditionalinfos/replaceOrCreate": [
+    "post"
+  ],
+  "/Companyadditionalinfos/upsertWithWhere": [
+    "post"
+  ],
+  "/Companyadditionalinfos/{id}/exists": [
+    "get"
+  ],
+  "/Companyadditionalinfos/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Companyadditionalinfos/{id}/replace": [
+    "post"
+  ],
+  "/Companyadditionalinfos/findOne": [
+    "get"
+  ],
+  "/Companyadditionalinfos/update": [
+    "post"
+  ],
+  "/Companyadditionalinfos/count": [
+    "get"
+  ],
+  "/Companyadditionalinfos/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Companyskills/{id}/company": [
+    "get"
+  ],
+  "/Companyskills/{id}/skill": [
+    "get"
+  ],
+  "/Companyskills": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Companyskills/replaceOrCreate": [
+    "post"
+  ],
+  "/Companyskills/upsertWithWhere": [
+    "post"
+  ],
+  "/Companyskills/{id}/exists": [
+    "get"
+  ],
+  "/Companyskills/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Companyskills/{id}/replace": [
+    "post"
+  ],
+  "/Companyskills/findOne": [
+    "get"
+  ],
+  "/Companyskills/update": [
+    "post"
+  ],
+  "/Companyskills/count": [
+    "get"
+  ],
+  "/Companyskills/change-stream": [
+    "post",
+    "get"
+  ],
+  "/companyaddinfo/updateaddinfo/{companyId}": [
+    "patch"
+  ],
+  "/Geocodes": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Geocodes/replaceOrCreate": [
+    "post"
+  ],
+  "/Geocodes/upsertWithWhere": [
+    "post"
+  ],
+  "/Geocodes/{id}/exists": [
+    "get"
+  ],
+  "/Geocodes/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Geocodes/{id}/replace": [
+    "post"
+  ],
+  "/Geocodes/findOne": [
+    "get"
+  ],
+  "/Geocodes/update": [
+    "post"
+  ],
+  "/Geocodes/count": [
+    "get"
+  ],
+  "/Geocodes/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Directions": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Directions/replaceOrCreate": [
+    "post"
+  ],
+  "/Directions/upsertWithWhere": [
+    "post"
+  ],
+  "/Directions/{id}/exists": [
+    "get"
+  ],
+  "/Directions/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Directions/{id}/replace": [
+    "post"
+  ],
+  "/Directions/findOne": [
+    "get"
+  ],
+  "/Directions/update": [
+    "post"
+  ],
+  "/Directions/count": [
+    "get"
+  ],
+  "/Directions/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Saluations": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Saluations/replaceOrCreate": [
+    "post"
+  ],
+  "/Saluations/upsertWithWhere": [
+    "post"
+  ],
+  "/Saluations/{id}/exists": [
+    "get"
+  ],
+  "/Saluations/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Saluations/{id}/replace": [
+    "post"
+  ],
+  "/Saluations/findOne": [
+    "get"
+  ],
+  "/Saluations/update": [
+    "post"
+  ],
+  "/Saluations/count": [
+    "get"
+  ],
+  "/Saluations/change-stream": [
+    "post",
+    "get"
+  ],
+  "/Workdays": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workdays/replaceOrCreate": [
+    "post"
+  ],
+  "/Workdays/upsertWithWhere": [
+    "post"
+  ],
+  "/Workdays/{id}/exists": [
+    "get"
+  ],
+  "/Workdays/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workdays/{id}/replace": [
+    "post"
+  ],
+  "/Workdays/findOne": [
+    "get"
+  ],
+  "/Workdays/update": [
+    "post"
+  ],
+  "/Workdays/count": [
+    "get"
+  ],
+  "/Workdays/change-stream": [
+    "post",
+    "get"
+  ],
+  "/jobdocuments": [
+    "post"
+  ],
+  "/jobdocuments/jd": [
+    "get"
+  ],
+  "/userlogs": [
+    "get"
+  ],
+  "/batchdetails/flags": [
+    "patch"
+  ],
+  "/batchdetails": [
+    "delete",
+    "patch",
+    "post",
+    "get"
+  ],
+  "/batch/flags": [
+    "post"
+  ],
+  "/batch": [
+    "delete",
+    "patch",
+    "post",
+    "get"
+  ],
+  "/invitation": [
+    "post"
+  ],
+  "/invitation/status": [
+    "get"
+  ],
+  "/notification": [
+    "post"
+  ],
+  "/notification/{rUserId}": [
+    "get"
+  ],
+  "/exportconfigurations/export/update/settings": [
+    "post"
+  ],
+  "/exportconfigurations/export/get/settings": [
+    "post"
+  ],
+  "/email-additional-comments": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/email-additional-comments/replaceOrCreate": [
+    "post"
+  ],
+  "/email-additional-comments/upsertWithWhere": [
+    "post"
+  ],
+  "/email-additional-comments/{id}/exists": [
+    "get"
+  ],
+  "/email-additional-comments/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/email-additional-comments/{id}/replace": [
+    "post"
+  ],
+  "/email-additional-comments/findOne": [
+    "get"
+  ],
+  "/email-additional-comments/update": [
+    "post"
+  ],
+  "/email-additional-comments/count": [
+    "get"
+  ],
+  "/email-additional-comments/change-stream": [
+    "post",
+    "get"
+  ],
+  "/email-additional-comments/comment/{templateId}/{facultyId}": [
+    "get"
+  ],
+  "/email-additional-comments/comment/{templateId}": [
+    "post"
+  ],
+  "/jobselfsources": [
+    "post",
+    "get"
+  ],
+  "/jobselfsources/{jobSelfSourceId}": [
+    "put",
+    "post"
+  ],
+  "/jobselfsources/{jobSelfSourceId}/student": [
+    "put"
+  ],
+  "/jobselfsources/student": [
+    "get"
+  ],
+  "/jobselfsources/offer/{personDocId}": [
+    "get"
+  ],
+  "/jobselfsources/approved/{jobSelfSourceId}": [
+    "put"
+  ],
+  "/jobselfsources/rejected/{jobSelfSourceId}": [
+    "put"
+  ],
+  "/jobselfsources/timeline/{jobSelfSourceId}": [
+    "post"
+  ],
+  "/jobselfsources/declaration/{jobSelfSourceId}": [
+    "get"
+  ],
+  "/jobselfsources/check/{studentId}": [
+    "get"
+  ],
+  "/jobselfsources/setClosed/{jobSelfSourceId}": [
+    "patch"
+  ],
+  "/jobselfsources/patchNewJob": [
+    "post"
+  ],
+  "/Workflowjobselfsources/{id}/jobselfsource": [
+    "get"
+  ],
+  "/Workflowjobselfsources/{id}/userinfo": [
+    "get"
+  ],
+  "/Workflowjobselfsources": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/Workflowjobselfsources/replaceOrCreate": [
+    "post"
+  ],
+  "/Workflowjobselfsources/upsertWithWhere": [
+    "post"
+  ],
+  "/Workflowjobselfsources/{id}/exists": [
+    "get"
+  ],
+  "/Workflowjobselfsources/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/Workflowjobselfsources/{id}/replace": [
+    "post"
+  ],
+  "/Workflowjobselfsources/findOne": [
+    "get"
+  ],
+  "/Workflowjobselfsources/update": [
+    "post"
+  ],
+  "/Workflowjobselfsources/count": [
+    "get"
+  ],
+  "/Workflowjobselfsources/change-stream": [
+    "post",
+    "get"
+  ],
+  "/grant-organizations": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/grant-organizations/replaceOrCreate": [
+    "post"
+  ],
+  "/grant-organizations/upsertWithWhere": [
+    "post"
+  ],
+  "/grant-organizations/{id}/exists": [
+    "get"
+  ],
+  "/grant-organizations/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/grant-organizations/{id}/replace": [
+    "post"
+  ],
+  "/grant-organizations/findOne": [
+    "get"
+  ],
+  "/grant-organizations/update": [
+    "post"
+  ],
+  "/grant-organizations/count": [
+    "get"
+  ],
+  "/grant-organizations/change-stream": [
+    "post",
+    "get"
+  ],
+  "/grant-organizations/bulkUpdate": [
+    "post"
+  ],
+  "/grant-organizations/{organizationId}": [
+    "delete"
+  ],
+  "/grants": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/grants/replaceOrCreate": [
+    "post"
+  ],
+  "/grants/upsertWithWhere": [
+    "post"
+  ],
+  "/grants/{id}/exists": [
+    "get"
+  ],
+  "/grants/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/grants/{id}/replace": [
+    "post"
+  ],
+  "/grants/findOne": [
+    "get"
+  ],
+  "/grants/update": [
+    "post"
+  ],
+  "/grants/count": [
+    "get"
+  ],
+  "/grants/change-stream": [
+    "post",
+    "get"
+  ],
+  "/grants/bulkUpdate": [
+    "post"
+  ],
+  "/grants/{grantId}": [
+    "delete"
+  ],
+  "/grants/status/{grantId}": [
+    "patch"
+  ],
+  "/coursedefaultskill": [
+    "post"
+  ],
+  "/coursedefaultskill/{courseId}": [
+    "get"
+  ],
+  "/coursedefaultskill/{courseDefaultSkillId}": [
+    "delete"
+  ],
+  "/institution-settings": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/institution-settings/replaceOrCreate": [
+    "post"
+  ],
+  "/institution-settings/upsertWithWhere": [
+    "post"
+  ],
+  "/institution-settings/{id}/exists": [
+    "get"
+  ],
+  "/institution-settings/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/institution-settings/{id}/replace": [
+    "post"
+  ],
+  "/institution-settings/findOne": [
+    "get"
+  ],
+  "/institution-settings/update": [
+    "post"
+  ],
+  "/institution-settings/count": [
+    "get"
+  ],
+  "/institution-settings/change-stream": [
+    "post",
+    "get"
+  ],
+  "/institution-settings/settings/companyLead": [
+    "get",
+    "patch"
+  ],
+  "/company-uen": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/company-uen/replaceOrCreate": [
+    "post"
+  ],
+  "/company-uen/upsertWithWhere": [
+    "post"
+  ],
+  "/company-uen/{id}/exists": [
+    "get"
+  ],
+  "/company-uen/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/company-uen/{id}/replace": [
+    "post"
+  ],
+  "/company-uen/findOne": [
+    "get"
+  ],
+  "/company-uen/update": [
+    "post"
+  ],
+  "/company-uen/count": [
+    "get"
+  ],
+  "/company-uen/change-stream": [
+    "post",
+    "get"
+  ],
+  "/company-uen/uen-info/{companyUen}": [
+    "get"
+  ],
+  "/nature-of-business": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/nature-of-business/replaceOrCreate": [
+    "post"
+  ],
+  "/nature-of-business/upsertWithWhere": [
+    "post"
+  ],
+  "/nature-of-business/{id}/exists": [
+    "get"
+  ],
+  "/nature-of-business/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/nature-of-business/{id}/replace": [
+    "post"
+  ],
+  "/nature-of-business/findOne": [
+    "get"
+  ],
+  "/nature-of-business/update": [
+    "post"
+  ],
+  "/nature-of-business/count": [
+    "get"
+  ],
+  "/nature-of-business/change-stream": [
+    "post",
+    "get"
+  ],
+  "/CompanyNatureOfBusinesses/{id}/company": [
+    "get"
+  ],
+  "/CompanyNatureOfBusinesses/{id}/natureofbusiness": [
+    "get"
+  ],
+  "/CompanyNatureOfBusinesses": [
+    "post",
+    "patch",
+    "put",
+    "get"
+  ],
+  "/CompanyNatureOfBusinesses/replaceOrCreate": [
+    "post"
+  ],
+  "/CompanyNatureOfBusinesses/upsertWithWhere": [
+    "post"
+  ],
+  "/CompanyNatureOfBusinesses/{id}/exists": [
+    "get"
+  ],
+  "/CompanyNatureOfBusinesses/{id}": [
+    "head",
+    "get",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/CompanyNatureOfBusinesses/{id}/replace": [
+    "post"
+  ],
+  "/CompanyNatureOfBusinesses/findOne": [
+    "get"
+  ],
+  "/CompanyNatureOfBusinesses/update": [
+    "post"
+  ],
+  "/CompanyNatureOfBusinesses/count": [
+    "get"
+  ],
+  "/CompanyNatureOfBusinesses/change-stream": [
+    "post",
+    "get"
+  ],
+  "/application-timeout/replaceOrCreate": [
+    "post"
+  ],
+  "/application-timeout": [
+    "put",
+    "get"
+  ],
+  "/application-timeout/upsertWithWhere": [
+    "post"
+  ],
+  "/application-timeout/{id}/replace": [
+    "post"
+  ],
+  "/application-timeout/{id}": [
+    "put"
+  ],
+  "/application-timeout/change-stream": [
+    "post",
+    "get"
+  ],
+  "/application-timeout/update": [
+    "patch"
+  ],
+  "/placement-letters/{id}/job": [
+    "get"
+  ],
+  "/placement-letters/{id}/application": [
+    "get"
+  ],
+  "/placement-letters/{id}/address": [
+    "get"
+  ],
+  "/placement-letters/{id}/currency": [
+    "get"
+  ],
+  "/placement-letters/{id}/placementletterapproval/{fk}": [
+    "get",
+    "delete",
+    "put"
+  ],
+  "/placement-letters/{id}/placementletterapproval": [
+    "get",
+    "post",
+    "delete"
+  ],
+  "/placement-letters/{id}/placementletterapproval/count": [
+    "get"
+  ],
+  "/placement-letters": [
+    "post",
+    "patch",
+    "put"
+  ],
+  "/placement-letters/replaceOrCreate": [
+    "post"
+  ],
+  "/placement-letters/upsertWithWhere": [
+    "post"
+  ],
+  "/placement-letters/{id}/exists": [
+    "get"
+  ],
+  "/placement-letters/{id}": [
+    "head",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "/placement-letters/{id}/replace": [
+    "post"
+  ],
+  "/placement-letters/findOne": [
+    "get"
+  ],
+  "/placement-letters/update": [
+    "post"
+  ],
+  "/placement-letters/count": [
+    "get"
+  ],
+  "/placement-letters/change-stream": [
+    "post",
+    "get"
+  ],
+  "/placement-letters/edit": [
+    "put"
+  ],
+  "/placement-letters/{jobId}": [
+    "get"
+  ],
+  "/placement-letters/approval-specific/{placementLetterId}": [
+    "get"
+  ],
+  "/placement-letters/approval-general/{jobId}": [
+    "get"
+  ],
+  "/placement-letters/student/{appId}": [
+    "get"
+  ],
+  "/placement-letters/edit-general/{jobId}": [
+    "get"
+  ],
+  "/placement-letters/edit-specific/{placementLetterId}": [
+    "get"
+  ],
+  "/placement-letters/approve-specific/{approvalId}": [
+    "post"
+  ],
+  "/placement-letters/approve-general/{jobId}": [
+    "post"
+  ],
+  "/placement-letters/reject-general/{jobId}": [
+    "post"
+  ],
+  "/placement-letters/reject-specific/{approvalId}": [
+    "post"
+  ],
+  "/placement-letters/index": [
+    "get"
+  ],
+  "/placement-letters/index-specific-edit": [
+    "get"
+  ],
+  "/lostudents": [
+    "post",
+    "get"
+  ],
+  "/lostudents/checked": [
+    "post"
+  ],
+  "/lostudents/verifiedUser": [
+    "post"
+  ],
+  "/lostudents/{loStudentId}": [
+    "patch"
+  ],
+  "/lostudents/exportStudentLO": [
+    "get"
+  ],
+  "/lostudents/lo/dashboard": [
+    "get"
+  ],
+  "/videointerviewgroups/{videointerviewgroupId}": [
+    "get",
+    "patch",
+    "delete"
+  ],
+  "/videointerviewgroups/company": [
+    "get"
+  ],
+  "/videointerviewgroups/user": [
+    "get"
+  ],
+  "/videointerviewgroups/admin-dashboard": [
+    "get"
+  ],
+  "/videointerviewgroups/videointerview/{groupId}": [
+    "get"
+  ],
+  "/videointerviewgroups/videointerview/list": [
+    "get"
+  ],
+  "/videointerviewgroups/candidate/{videointerviewId}": [
+    "get",
+    "patch"
+  ],
+  "/videointerviewgroups": [
+    "post"
+  ],
+  "/videointerviewgroups/clone": [
+    "post"
+  ],
+  "/videointerviewgroups/invite": [
+    "post"
+  ],
+  "/videointerviewgroups/createinterview/{videointerviewgroupId}": [
+    "post"
+  ],
+  "/videointerviewgroups/profile/{groupId}": [
+    "post",
+    "patch"
+  ],
+  "/videointerviewgroups/profiles": [
+    "delete"
+  ],
+  "/videointerviewgroups/collaborator/{groupId}": [
+    "get",
+    "post"
+  ],
+  "/videointerviewgroups/collaborator/{groupId}/{collaboratorId}": [
+    "delete"
+  ],
+  "/videointerviewgroups/download/{videointerviewgroupId}": [
+    "get"
+  ],
+  "/videointerviewgroups/{videointerviewgroupId}/analytics": [
+    "get"
+  ],
+  "/videointerviewgroups/candidate/share/{sharingUrl}": [
+    "get"
+  ],
+  "/videointerviewgroups/retakeassessment/{videointerviewId}": [
+    "patch"
+  ],
+  "/videointerviewgroupcriteria": [
+    "get",
+    "post"
+  ],
+  "/videointerviewgroupcriteria/{criteriaId}": [
+    "patch",
+    "delete"
+  ],
+  "/videointerviewgroupcriteria/map/{questionId}": [
+    "get",
+    "patch"
+  ],
+  "/videointerviewgroupcriteria/map": [
+    "post"
+  ],
+  "/videointerviewgroupcriteria/map/{videointerviewgroupcriteriamappingId}": [
+    "delete"
+  ],
+  "/videointerviewfeedback/{videointerviewresponseId}": [
+    "get"
+  ],
+  "/videointerviewfeedback": [
+    "post"
+  ],
+  "/videointerviewfeedback/{videointerviewCollabFeedbackId}": [
+    "patch",
+    "delete"
+  ],
+  "/videointerviewsession": [
+    "post",
+    "get",
+    "patch",
+    "delete"
+  ],
+  "/videointerviewsession/upload": [
+    "post"
+  ],
+  "/videointerviewnotifications": [
+    "post",
+    "patch",
+    "delete"
+  ],
+  "/videointerviewnotifications/{videointerviewGroupId}": [
+    "get"
+  ],
+  "/hybridquestions": [
+    "post",
+    "patch",
+    "delete"
+  ],
+  "/hybridquestions/upload": [
+    "post"
+  ],
+  "/hybridquestions/uploadimage": [
+    "post"
+  ],
+  "/hybridquestions/{assessmentId}": [
+    "get"
+  ],
+  "/hybridquestions/codingInterviewGroup/{codingInterviewGroupId}": [
+    "get"
+  ],
+  "/hybridquestions/{hybridQuestionCategoryId}": [
+    "delete"
+  ],
+  "/hybridquestions/question/{questionDocId}/{personDocId}": [
+    "delete"
+  ],
+  "/hybridquestions/uploadfile": [
+    "post"
+  ],
+  "/hybridquestions/category/{userId}": [
+    "get"
+  ]
+}
+

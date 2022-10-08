@@ -1,0 +1,67 @@
+[
+  {
+    "method": "get",
+    "endpoint": "/applications/dashboards",
+    "endUrl": "/applications/dashboards",
+    "apiResp": {
+      "error": {
+        "message": "User ID missing",
+        "code": 403
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/applications",
+    "endUrl": "/applications",
+    "apiResp": {
+      "error": {
+        "code": "x0pa-1",
+        "message": "userId_missing"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/applications/exports",
+    "endUrl": "/applications/exports",
+    "apiResp": {
+      "error": {
+        "code": "x0pa-1",
+        "message": "userId_missing"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/applications/check-timeout",
+    "endUrl": "/applications/check-timeout",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 400",
+      "errorData": {
+        "error": {
+          "statusCode": 400,
+          "name": "Error",
+          "message": "Value is not a number."
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/applicationemails/sent",
+    "endUrl": "/applicationemails/sent",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 400",
+      "errorData": {
+        "error": {
+          "statusCode": 400,
+          "name": "Error",
+          "message": "Value is not a number."
+        }
+      }
+    }
+  }
+]

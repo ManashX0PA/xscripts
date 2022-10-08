@@ -1,0 +1,20 @@
+{
+  "deltas": [
+    {
+      "date": 1658861224,
+      "object": "message",
+      "type": "message.created",
+      "object_data": {
+        "namespace_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "account_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "object": "message",
+        "attributes": {
+          "thread_id": "jtfxxavtpvg10rvacyq59m86",
+          "received_date": 1658448258
+        },
+        "id": "4jp9i9lirla5eg43emuru1jy3",
+        "metadata": null
+      }
+    }
+  ]
+}

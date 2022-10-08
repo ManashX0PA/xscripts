@@ -1,0 +1,37 @@
+{
+  "deltas": [
+    {
+      "date": 1658860576,
+      "object": "metadata",
+      "type": "message.link_clicked",
+      "object_data": {
+        "namespace_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "account_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "object": "metadata",
+        "attributes": null,
+        "id": "9e2mlz6po1p6cxswh1hyqj6vk",
+        "metadata": {
+          "sender_app_id": 40167,
+          "link_data": [
+            {
+              "url": "https://nylas.com",
+              "count": 1
+            }
+          ],
+          "timestamp": 1658860492,
+          "recents": [
+            {
+              "ip": "124.123.191.21",
+              "link_index": 0,
+              "id": 0,
+              "timestamp": 1658860576,
+              "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+            }
+          ],
+          "message_id": "pvurwrvs1snf4dz2a9qween9",
+          "payload": "payload"
+        }
+      }
+    }
+  ]
+}

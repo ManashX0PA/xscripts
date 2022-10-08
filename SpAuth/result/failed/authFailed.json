@@ -1,0 +1,372 @@
+[
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/{id}/user",
+    "endUrl": "/UserCredentials/6000/user",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials",
+    "endUrl": "/UserCredentials",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/replaceOrCreate",
+    "endUrl": "/UserCredentials/replaceOrCreate",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/upsertWithWhere",
+    "endUrl": "/UserCredentials/upsertWithWhere",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/{id}/exists",
+    "endUrl": "/UserCredentials/6000/exists",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/{id}",
+    "endUrl": "/UserCredentials/6000",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/findOne",
+    "endUrl": "/UserCredentials/findOne",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/update",
+    "endUrl": "/UserCredentials/update",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/count",
+    "endUrl": "/UserCredentials/count",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserCredentials/change-stream",
+    "endUrl": "/UserCredentials/change-stream",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/{id}/user",
+    "endUrl": "/UserIdentities/6000/user",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities",
+    "endUrl": "/UserIdentities",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/replaceOrCreate",
+    "endUrl": "/UserIdentities/replaceOrCreate",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/upsertWithWhere",
+    "endUrl": "/UserIdentities/upsertWithWhere",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/{id}/exists",
+    "endUrl": "/UserIdentities/6000/exists",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/{id}",
+    "endUrl": "/UserIdentities/6000",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/findOne",
+    "endUrl": "/UserIdentities/findOne",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/update",
+    "endUrl": "/UserIdentities/update",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/count",
+    "endUrl": "/UserIdentities/count",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/UserIdentities/change-stream",
+    "endUrl": "/UserIdentities/change-stream",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/{id}/accessTokens/{fk}",
+    "endUrl": "/Users/6000/accessTokens/6000",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/{id}/accessTokens",
+    "endUrl": "/Users/6000/accessTokens",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/{id}/accessTokens/count",
+    "endUrl": "/Users/6000/accessTokens/count",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users",
+    "endUrl": "/Users",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/replaceOrCreate",
+    "endUrl": "/Users/replaceOrCreate",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/upsertWithWhere",
+    "endUrl": "/Users/upsertWithWhere",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/{id}/exists",
+    "endUrl": "/Users/6000/exists",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/{id}",
+    "endUrl": "/Users/6000",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/findOne",
+    "endUrl": "/Users/findOne",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/update",
+    "endUrl": "/Users/update",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/count",
+    "endUrl": "/Users/count",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/change-stream",
+    "endUrl": "/Users/change-stream",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/login",
+    "endUrl": "/Users/login",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/logout",
+    "endUrl": "/Users/logout",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/reset",
+    "endUrl": "/Users/reset",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/change-password",
+    "endUrl": "/Users/change-password",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/Users/reset-password",
+    "endUrl": "/Users/reset-password",
+    "apiResp": {
+      "error": {
+        "code": "AUTHORIZATION_REQUIRED"
+      }
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "deltas": [
+    {
+      "date": 1658860511,
+      "object": "metadata",
+      "type": "message.opened",
+      "object_data": {
+        "namespace_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "account_id": "3nzc3esfkp58v0f5rr0ky5nmc",
+        "object": "metadata",
+        "attributes": null,
+        "id": "3wx32r7so4ju3fo5f5vg38wxi",
+        "metadata": {
+          "count": 1,
+          "sender_app_id": 40167,
+          "timestamp": 1658860511,
+          "recents": [
+            {
+              "ip": "124.123.191.21",
+              "id": 0,
+              "timestamp": 1658860511,
+              "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+            }
+          ],
+          "payload": "payload",
+          "message_id": "pvurwrvs1snf4dz2a9qween9"
+        }
+      }
+    }
+  ]
+}

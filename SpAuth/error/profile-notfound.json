@@ -1,0 +1,130 @@
+[
+  {
+    "method": "get",
+    "endpoint": "/profile-base/{id}/persondocument",
+    "endUrl": "/profile-base/6000/persondocument",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Profile\" has no method handling GET /6000/persondocument?x=x0patest"
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/profile-base/{id}/userprofilemap/{fk}",
+    "endUrl": "/profile-base/6000/userprofilemap/6000",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Profile\" has no method handling GET /6000/userprofilemap/6000?x=x0patest"
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/profile-base/{id}/userprofilemap",
+    "endUrl": "/profile-base/6000/userprofilemap",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Profile\" has no method handling GET /6000/userprofilemap?x=x0patest"
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/profile-base/{id}/userprofilemap/count",
+    "endUrl": "/profile-base/6000/userprofilemap/count",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Profile\" has no method handling GET /6000/userprofilemap/count?x=x0patest"
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/userinfo-base/{id}/userprofilemap/{fk}",
+    "endUrl": "/userinfo-base/6000/userprofilemap/6000",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Userinfo\" has no method handling GET /6000/userprofilemap/6000?x=x0patest"
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/userinfo-base/{id}/userprofilemap",
+    "endUrl": "/userinfo-base/6000/userprofilemap",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Userinfo\" has no method handling GET /6000/userprofilemap?x=x0patest"
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/userinfo-base/{id}/userprofilemap/count",
+    "endUrl": "/userinfo-base/6000/userprofilemap/count",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Userinfo\" has no method handling GET /6000/userprofilemap/count?x=x0patest"
+        }
+      }
+    }
+  },
+  {
+    "method": "get",
+    "endpoint": "/videointerviews-base/{id}/profile",
+    "endUrl": "/videointerviews-base/6000/profile",
+    "apiResp": {
+      "error": true,
+      "message": "Request failed with status code 404",
+      "errorData": {
+        "error": {
+          "statusCode": 404,
+          "name": "Error",
+          "message": "Shared class \"Videointerviews\" has no method handling GET /6000/profile?x=x0patest"
+        }
+      }
+    }
+  }
+]
